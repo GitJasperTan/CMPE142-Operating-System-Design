@@ -1,0 +1,3200 @@
+******************************
+Beginning FIFO Simulation
+
+Simulation #1
+Index    Ref     Frames          Action
+i:0      1       1 -1 -1
+i:1      0       1 0 -1
+i:2      1       1 0 -1
+i:3      1       1 0 -1
+i:4      6       1 0 6
+i:5      1       1 0 6
+i:6      7       7 0 6          1 evicted, 7 entered
+i:7      6       7 0 6
+i:8      5       7 5 6          0 evicted, 5 entered
+i:9      4       7 5 4          6 evicted, 4 entered
+i:10     1       1 5 4          7 evicted, 1 entered
+i:11     1       1 5 4
+i:12     1       1 5 4
+i:13     1       1 5 4
+i:14     0       1 0 4          5 evicted, 0 entered
+i:15     0       1 0 4
+i:16     6       1 0 6          4 evicted, 6 entered
+i:17     2       2 0 6          1 evicted, 2 entered
+i:18     4       2 4 6          0 evicted, 4 entered
+i:19     4       2 4 6
+i:20     4       2 4 6
+i:21     3       2 4 3          6 evicted, 3 entered
+i:22     6       6 4 3          2 evicted, 6 entered
+i:23     4       6 4 3
+i:24     1       6 1 3          4 evicted, 1 entered
+i:25     4       6 1 4          3 evicted, 4 entered
+i:26     4       6 1 4
+i:27     4       6 1 4
+i:28     3       3 1 4          6 evicted, 3 entered
+i:29     1       3 1 4
+i:30     7       3 7 4          1 evicted, 7 entered
+i:31     3       3 7 4
+i:32     7       3 7 4
+i:33     7       3 7 4
+i:34     6       3 7 6          4 evicted, 6 entered
+i:35     6       3 7 6
+i:36     5       5 7 6          3 evicted, 5 entered
+i:37     6       5 7 6
+i:38     1       5 1 6          7 evicted, 1 entered
+i:39     2       5 1 2          6 evicted, 2 entered
+i:40     0       0 1 2          5 evicted, 0 entered
+i:41     4       0 4 2          1 evicted, 4 entered
+i:42     1       0 4 1          2 evicted, 1 entered
+i:43     5       5 4 1          0 evicted, 5 entered
+i:44     7       5 7 1          4 evicted, 7 entered
+i:45     3       5 7 3          1 evicted, 3 entered
+i:46     1       1 7 3          5 evicted, 1 entered
+i:47     1       1 7 3
+i:48     2       1 2 3          7 evicted, 2 entered
+i:49     2       1 2 3
+i:50     1       1 2 3
+i:51     1       1 2 3
+i:52     1       1 2 3
+i:53     7       1 2 7          3 evicted, 7 entered
+i:54     7       1 2 7
+i:55     6       6 2 7          1 evicted, 6 entered
+i:56     3       6 3 7          2 evicted, 3 entered
+i:57     2       6 3 2          7 evicted, 2 entered
+i:58     2       6 3 2
+i:59     3       6 3 2
+i:60     1       1 3 2          6 evicted, 1 entered
+i:61     1       1 3 2
+i:62     4       1 4 2          3 evicted, 4 entered
+i:63     4       1 4 2
+i:64     3       1 4 3          2 evicted, 3 entered
+i:65     1       1 4 3
+i:66     4       1 4 3
+i:67     4       1 4 3
+i:68     7       7 4 3          1 evicted, 7 entered
+i:69     7       7 4 3
+i:70     7       7 4 3
+i:71     7       7 4 3
+i:72     2       7 2 3          4 evicted, 2 entered
+i:73     7       7 2 3
+i:74     6       7 2 6          3 evicted, 6 entered
+i:75     7       7 2 6
+i:76     3       3 2 6          7 evicted, 3 entered
+i:77     3       3 2 6
+i:78     7       3 7 6          2 evicted, 7 entered
+i:79     4       3 7 4          6 evicted, 4 entered
+i:80     4       3 7 4
+i:81     4       3 7 4
+i:82     5       5 7 4          3 evicted, 5 entered
+i:83     4       5 7 4
+i:84     1       5 1 4          7 evicted, 1 entered
+i:85     5       5 1 4
+i:86     5       5 1 4
+i:87     4       5 1 4
+i:88     2       5 1 2          4 evicted, 2 entered
+i:89     2       5 1 2
+i:90     1       5 1 2
+i:91     6       6 1 2          5 evicted, 6 entered
+i:92     6       6 1 2
+i:93     6       6 1 2
+i:94     5       6 5 2          1 evicted, 5 entered
+i:95     0       6 5 0          2 evicted, 0 entered
+i:96     0       6 5 0
+i:97     0       6 5 0
+i:98     1       1 5 0          6 evicted, 1 entered
+i:99     4       1 4 0          5 evicted, 4 entered
+Simulation #1 Statistics - Hit Ratio: 50% Page Swaps: 47
+
+Simulation #2
+Index    Ref     Frames          Action
+i:0      7       7 -1 -1
+i:1      7       7 -1 -1
+i:2      1       7 1 -1
+i:3      4       7 1 4
+i:4      1       7 1 4
+i:5      4       7 1 4
+i:6      6       6 1 4          7 evicted, 6 entered
+i:7      5       6 5 4          1 evicted, 5 entered
+i:8      0       6 5 0          4 evicted, 0 entered
+i:9      0       6 5 0
+i:10     0       6 5 0
+i:11     6       6 5 0
+i:12     5       6 5 0
+i:13     4       4 5 0          6 evicted, 4 entered
+i:14     0       4 5 0
+i:15     1       4 1 0          5 evicted, 1 entered
+i:16     0       4 1 0
+i:17     0       4 1 0
+i:18     0       4 1 0
+i:19     1       4 1 0
+i:20     1       4 1 0
+i:21     1       4 1 0
+i:22     1       4 1 0
+i:23     7       4 1 7          0 evicted, 7 entered
+i:24     6       6 1 7          4 evicted, 6 entered
+i:25     1       6 1 7
+i:26     1       6 1 7
+i:27     1       6 1 7
+i:28     4       6 4 7          1 evicted, 4 entered
+i:29     0       6 4 0          7 evicted, 0 entered
+i:30     0       6 4 0
+i:31     5       5 4 0          6 evicted, 5 entered
+i:32     1       5 1 0          4 evicted, 1 entered
+i:33     3       5 1 3          0 evicted, 3 entered
+i:34     1       5 1 3
+i:35     3       5 1 3
+i:36     5       5 1 3
+i:37     6       6 1 3          5 evicted, 6 entered
+i:38     5       6 5 3          1 evicted, 5 entered
+i:39     0       6 5 0          3 evicted, 0 entered
+i:40     7       7 5 0          6 evicted, 7 entered
+i:41     7       7 5 0
+i:42     0       7 5 0
+i:43     0       7 5 0
+i:44     0       7 5 0
+i:45     0       7 5 0
+i:46     3       7 3 0          5 evicted, 3 entered
+i:47     0       7 3 0
+i:48     1       7 3 1          0 evicted, 1 entered
+i:49     1       7 3 1
+i:50     1       7 3 1
+i:51     2       2 3 1          7 evicted, 2 entered
+i:52     7       2 7 1          3 evicted, 7 entered
+i:53     6       2 7 6          1 evicted, 6 entered
+i:54     1       1 7 6          2 evicted, 1 entered
+i:55     0       1 0 6          7 evicted, 0 entered
+i:56     6       1 0 6
+i:57     5       1 0 5          6 evicted, 5 entered
+i:58     1       1 0 5
+i:59     1       1 0 5
+i:60     3       3 0 5          1 evicted, 3 entered
+i:61     2       3 2 5          0 evicted, 2 entered
+i:62     1       3 2 1          5 evicted, 1 entered
+i:63     0       0 2 1          3 evicted, 0 entered
+i:64     3       0 3 1          2 evicted, 3 entered
+i:65     3       0 3 1
+i:66     1       0 3 1
+i:67     3       0 3 1
+i:68     2       0 3 2          1 evicted, 2 entered
+i:69     0       0 3 2
+i:70     0       0 3 2
+i:71     0       0 3 2
+i:72     0       0 3 2
+i:73     7       7 3 2          0 evicted, 7 entered
+i:74     7       7 3 2
+i:75     7       7 3 2
+i:76     6       7 6 2          3 evicted, 6 entered
+i:77     6       7 6 2
+i:78     7       7 6 2
+i:79     7       7 6 2
+i:80     7       7 6 2
+i:81     6       7 6 2
+i:82     7       7 6 2
+i:83     7       7 6 2
+i:84     7       7 6 2
+i:85     1       7 6 1          2 evicted, 1 entered
+i:86     3       3 6 1          7 evicted, 3 entered
+i:87     1       3 6 1
+i:88     4       3 4 1          6 evicted, 4 entered
+i:89     1       3 4 1
+i:90     5       3 4 5          1 evicted, 5 entered
+i:91     1       1 4 5          3 evicted, 1 entered
+i:92     1       1 4 5
+i:93     7       1 7 5          4 evicted, 7 entered
+i:94     6       1 7 6          5 evicted, 6 entered
+i:95     5       5 7 6          1 evicted, 5 entered
+i:96     5       5 7 6
+i:97     5       5 7 6
+i:98     5       5 7 6
+i:99     5       5 7 6
+Simulation #2 Statistics - Hit Ratio: 57% Page Swaps: 40
+
+Simulation #3
+Index    Ref     Frames          Action
+i:0      3       3 -1 -1
+i:1      1       3 1 -1
+i:2      4       3 1 4
+i:3      4       3 1 4
+i:4      4       3 1 4
+i:5      1       3 1 4
+i:6      3       3 1 4
+i:7      3       3 1 4
+i:8      2       2 1 4          3 evicted, 2 entered
+i:9      1       2 1 4
+i:10     3       2 3 4          1 evicted, 3 entered
+i:11     2       2 3 4
+i:12     2       2 3 4
+i:13     2       2 3 4
+i:14     4       2 3 4
+i:15     3       2 3 4
+i:16     3       2 3 4
+i:17     1       2 3 1          4 evicted, 1 entered
+i:18     4       4 3 1          2 evicted, 4 entered
+i:19     6       4 6 1          3 evicted, 6 entered
+i:20     5       4 6 5          1 evicted, 5 entered
+i:21     5       4 6 5
+i:22     5       4 6 5
+i:23     5       4 6 5
+i:24     5       4 6 5
+i:25     5       4 6 5
+i:26     4       4 6 5
+i:27     4       4 6 5
+i:28     1       1 6 5          4 evicted, 1 entered
+i:29     5       1 6 5
+i:30     5       1 6 5
+i:31     5       1 6 5
+i:32     1       1 6 5
+i:33     0       1 0 5          6 evicted, 0 entered
+i:34     5       1 0 5
+i:35     1       1 0 5
+i:36     1       1 0 5
+i:37     5       1 0 5
+i:38     5       1 0 5
+i:39     5       1 0 5
+i:40     5       1 0 5
+i:41     5       1 0 5
+i:42     1       1 0 5
+i:43     1       1 0 5
+i:44     5       1 0 5
+i:45     1       1 0 5
+i:46     4       1 0 4          5 evicted, 4 entered
+i:47     3       3 0 4          1 evicted, 3 entered
+i:48     5       3 5 4          0 evicted, 5 entered
+i:49     5       3 5 4
+i:50     1       3 5 1          4 evicted, 1 entered
+i:51     0       0 5 1          3 evicted, 0 entered
+i:52     1       0 5 1
+i:53     0       0 5 1
+i:54     6       0 6 1          5 evicted, 6 entered
+i:55     6       0 6 1
+i:56     4       0 6 4          1 evicted, 4 entered
+i:57     6       0 6 4
+i:58     5       5 6 4          0 evicted, 5 entered
+i:59     5       5 6 4
+i:60     2       5 2 4          6 evicted, 2 entered
+i:61     2       5 2 4
+i:62     2       5 2 4
+i:63     1       5 2 1          4 evicted, 1 entered
+i:64     0       0 2 1          5 evicted, 0 entered
+i:65     0       0 2 1
+i:66     0       0 2 1
+i:67     0       0 2 1
+i:68     2       0 2 1
+i:69     2       0 2 1
+i:70     2       0 2 1
+i:71     7       0 7 1          2 evicted, 7 entered
+i:72     7       0 7 1
+i:73     5       0 7 5          1 evicted, 5 entered
+i:74     5       0 7 5
+i:75     1       1 7 5          0 evicted, 1 entered
+i:76     5       1 7 5
+i:77     1       1 7 5
+i:78     1       1 7 5
+i:79     1       1 7 5
+i:80     6       1 6 5          7 evicted, 6 entered
+i:81     0       1 6 0          5 evicted, 0 entered
+i:82     0       1 6 0
+i:83     1       1 6 0
+i:84     0       1 6 0
+i:85     0       1 6 0
+i:86     3       3 6 0          1 evicted, 3 entered
+i:87     7       3 7 0          6 evicted, 7 entered
+i:88     6       3 7 6          0 evicted, 6 entered
+i:89     5       5 7 6          3 evicted, 5 entered
+i:90     4       5 4 6          7 evicted, 4 entered
+i:91     3       5 4 3          6 evicted, 3 entered
+i:92     1       1 4 3          5 evicted, 1 entered
+i:93     1       1 4 3
+i:94     5       1 5 3          4 evicted, 5 entered
+i:95     7       1 5 7          3 evicted, 7 entered
+i:96     2       2 5 7          1 evicted, 2 entered
+i:97     2       2 5 7
+i:98     7       2 5 7
+i:99     2       2 5 7
+Simulation #3 Statistics - Hit Ratio: 63% Page Swaps: 34
+
+Simulation #4
+Index    Ref     Frames          Action
+i:0      0       0 -1 -1
+i:1      4       0 4 -1
+i:2      3       0 4 3
+i:3      1       1 4 3          0 evicted, 1 entered
+i:4      4       1 4 3
+i:5      1       1 4 3
+i:6      5       1 5 3          4 evicted, 5 entered
+i:7      1       1 5 3
+i:8      2       1 5 2          3 evicted, 2 entered
+i:9      1       1 5 2
+i:10     1       1 5 2
+i:11     1       1 5 2
+i:12     0       0 5 2          1 evicted, 0 entered
+i:13     0       0 5 2
+i:14     0       0 5 2
+i:15     0       0 5 2
+i:16     0       0 5 2
+i:17     0       0 5 2
+i:18     1       0 1 2          5 evicted, 1 entered
+i:19     0       0 1 2
+i:20     4       0 1 4          2 evicted, 4 entered
+i:21     1       0 1 4
+i:22     3       3 1 4          0 evicted, 3 entered
+i:23     1       3 1 4
+i:24     4       3 1 4
+i:25     4       3 1 4
+i:26     3       3 1 4
+i:27     2       3 2 4          1 evicted, 2 entered
+i:28     3       3 2 4
+i:29     2       3 2 4
+i:30     1       3 2 1          4 evicted, 1 entered
+i:31     1       3 2 1
+i:32     1       3 2 1
+i:33     2       3 2 1
+i:34     1       3 2 1
+i:35     1       3 2 1
+i:36     3       3 2 1
+i:37     1       3 2 1
+i:38     4       4 2 1          3 evicted, 4 entered
+i:39     5       4 5 1          2 evicted, 5 entered
+i:40     7       4 5 7          1 evicted, 7 entered
+i:41     7       4 5 7
+i:42     2       2 5 7          4 evicted, 2 entered
+i:43     0       2 0 7          5 evicted, 0 entered
+i:44     3       2 0 3          7 evicted, 3 entered
+i:45     7       7 0 3          2 evicted, 7 entered
+i:46     3       7 0 3
+i:47     1       7 1 3          0 evicted, 1 entered
+i:48     1       7 1 3
+i:49     0       7 1 0          3 evicted, 0 entered
+i:50     0       7 1 0
+i:51     1       7 1 0
+i:52     1       7 1 0
+i:53     5       5 1 0          7 evicted, 5 entered
+i:54     5       5 1 0
+i:55     1       5 1 0
+i:56     0       5 1 0
+i:57     6       5 6 0          1 evicted, 6 entered
+i:58     5       5 6 0
+i:59     1       5 6 1          0 evicted, 1 entered
+i:60     7       7 6 1          5 evicted, 7 entered
+i:61     6       7 6 1
+i:62     7       7 6 1
+i:63     6       7 6 1
+i:64     1       7 6 1
+i:65     7       7 6 1
+i:66     2       7 2 1          6 evicted, 2 entered
+i:67     1       7 2 1
+i:68     1       7 2 1
+i:69     1       7 2 1
+i:70     0       7 2 0          1 evicted, 0 entered
+i:71     0       7 2 0
+i:72     0       7 2 0
+i:73     0       7 2 0
+i:74     5       5 2 0          7 evicted, 5 entered
+i:75     3       5 3 0          2 evicted, 3 entered
+i:76     3       5 3 0
+i:77     3       5 3 0
+i:78     1       5 3 1          0 evicted, 1 entered
+i:79     1       5 3 1
+i:80     5       5 3 1
+i:81     5       5 3 1
+i:82     2       2 3 1          5 evicted, 2 entered
+i:83     7       2 7 1          3 evicted, 7 entered
+i:84     7       2 7 1
+i:85     2       2 7 1
+i:86     1       2 7 1
+i:87     0       2 7 0          1 evicted, 0 entered
+i:88     3       3 7 0          2 evicted, 3 entered
+i:89     3       3 7 0
+i:90     3       3 7 0
+i:91     3       3 7 0
+i:92     2       3 2 0          7 evicted, 2 entered
+i:93     2       3 2 0
+i:94     3       3 2 0
+i:95     1       3 2 1          0 evicted, 1 entered
+i:96     6       6 2 1          3 evicted, 6 entered
+i:97     0       6 0 1          2 evicted, 0 entered
+i:98     1       6 0 1
+i:99     1       6 0 1
+Simulation #4 Statistics - Hit Ratio: 62% Page Swaps: 35
+
+Simulation #5
+Index    Ref     Frames          Action
+i:0      1       1 -1 -1
+i:1      0       1 0 -1
+i:2      1       1 0 -1
+i:3      7       1 0 7
+i:4      1       1 0 7
+i:5      6       6 0 7          1 evicted, 6 entered
+i:6      6       6 0 7
+i:7      5       6 5 7          0 evicted, 5 entered
+i:8      4       6 5 4          7 evicted, 4 entered
+i:9      1       1 5 4          6 evicted, 1 entered
+i:10     5       1 5 4
+i:11     6       1 6 4          5 evicted, 6 entered
+i:12     4       1 6 4
+i:13     4       1 6 4
+i:14     1       1 6 4
+i:15     1       1 6 4
+i:16     6       1 6 4
+i:17     5       1 6 5          4 evicted, 5 entered
+i:18     5       1 6 5
+i:19     4       4 6 5          1 evicted, 4 entered
+i:20     3       4 3 5          6 evicted, 3 entered
+i:21     1       4 3 1          5 evicted, 1 entered
+i:22     0       0 3 1          4 evicted, 0 entered
+i:23     1       0 3 1
+i:24     1       0 3 1
+i:25     1       0 3 1
+i:26     7       0 7 1          3 evicted, 7 entered
+i:27     6       0 7 6          1 evicted, 6 entered
+i:28     1       1 7 6          0 evicted, 1 entered
+i:29     1       1 7 6
+i:30     1       1 7 6
+i:31     1       1 7 6
+i:32     7       1 7 6
+i:33     0       1 0 6          7 evicted, 0 entered
+i:34     0       1 0 6
+i:35     0       1 0 6
+i:36     0       1 0 6
+i:37     1       1 0 6
+i:38     1       1 0 6
+i:39     4       1 0 4          6 evicted, 4 entered
+i:40     7       7 0 4          1 evicted, 7 entered
+i:41     7       7 0 4
+i:42     1       7 1 4          0 evicted, 1 entered
+i:43     0       7 1 0          4 evicted, 0 entered
+i:44     1       7 1 0
+i:45     2       2 1 0          7 evicted, 2 entered
+i:46     1       2 1 0
+i:47     1       2 1 0
+i:48     1       2 1 0
+i:49     3       2 3 0          1 evicted, 3 entered
+i:50     5       2 3 5          0 evicted, 5 entered
+i:51     5       2 3 5
+i:52     4       4 3 5          2 evicted, 4 entered
+i:53     4       4 3 5
+i:54     7       4 7 5          3 evicted, 7 entered
+i:55     3       4 7 3          5 evicted, 3 entered
+i:56     1       1 7 3          4 evicted, 1 entered
+i:57     1       1 7 3
+i:58     0       1 0 3          7 evicted, 0 entered
+i:59     0       1 0 3
+i:60     0       1 0 3
+i:61     0       1 0 3
+i:62     1       1 0 3
+i:63     2       1 0 2          3 evicted, 2 entered
+i:64     4       4 0 2          1 evicted, 4 entered
+i:65     1       4 1 2          0 evicted, 1 entered
+i:66     5       4 1 5          2 evicted, 5 entered
+i:67     5       4 1 5
+i:68     5       4 1 5
+i:69     4       4 1 5
+i:70     2       2 1 5          4 evicted, 2 entered
+i:71     2       2 1 5
+i:72     6       2 6 5          1 evicted, 6 entered
+i:73     6       2 6 5
+i:74     6       2 6 5
+i:75     1       2 6 1          5 evicted, 1 entered
+i:76     7       7 6 1          2 evicted, 7 entered
+i:77     7       7 6 1
+i:78     7       7 6 1
+i:79     7       7 6 1
+i:80     6       7 6 1
+i:81     0       7 0 1          6 evicted, 0 entered
+i:82     0       7 0 1
+i:83     2       7 0 2          1 evicted, 2 entered
+i:84     1       1 0 2          7 evicted, 1 entered
+i:85     5       1 5 2          0 evicted, 5 entered
+i:86     5       1 5 2
+i:87     0       1 5 0          2 evicted, 0 entered
+i:88     6       6 5 0          1 evicted, 6 entered
+i:89     6       6 5 0
+i:90     5       6 5 0
+i:91     1       6 1 0          5 evicted, 1 entered
+i:92     1       6 1 0
+i:93     1       6 1 0
+i:94     1       6 1 0
+i:95     6       6 1 0
+i:96     1       6 1 0
+i:97     1       6 1 0
+i:98     1       6 1 0
+i:99     4       6 1 4          0 evicted, 4 entered
+Simulation #5 Statistics - Hit Ratio: 55% Page Swaps: 42
+
+Ending FIFO Simulation
+******************************
+******************************
+Beginning LRU Simulation
+
+Simulation #1
+Index    Ref     Frames          Action
+i:0      1       1 -1 -1
+i:1      0       1 0 -1
+i:2      1       1 0 -1
+i:3      1       1 0 -1
+i:4      6       1 0 6
+i:5      1       1 0 6
+i:6      7       1 7 6          0 evicted, 7 entered
+i:7      6       1 7 6
+i:8      5       5 7 6          1 evicted, 5 entered
+i:9      4       5 4 6          7 evicted, 4 entered
+i:10     1       5 4 1          6 evicted, 1 entered
+i:11     1       5 4 1
+i:12     1       5 4 1
+i:13     1       5 4 1
+i:14     0       0 4 1          5 evicted, 0 entered
+i:15     0       0 4 1
+i:16     6       0 6 1          4 evicted, 6 entered
+i:17     2       0 6 2          1 evicted, 2 entered
+i:18     4       4 6 2          0 evicted, 4 entered
+i:19     4       4 6 2
+i:20     4       4 6 2
+i:21     3       4 3 2          6 evicted, 3 entered
+i:22     6       4 3 6          2 evicted, 6 entered
+i:23     4       4 3 6
+i:24     1       4 1 6          3 evicted, 1 entered
+i:25     4       4 1 6
+i:26     4       4 1 6
+i:27     4       4 1 6
+i:28     3       4 1 3          6 evicted, 3 entered
+i:29     1       4 1 3
+i:30     7       7 1 3          4 evicted, 7 entered
+i:31     3       7 1 3
+i:32     7       7 1 3
+i:33     7       7 1 3
+i:34     6       7 6 3          1 evicted, 6 entered
+i:35     6       7 6 3
+i:36     5       7 6 5          3 evicted, 5 entered
+i:37     6       7 6 5
+i:38     1       1 6 5          7 evicted, 1 entered
+i:39     2       1 6 2          5 evicted, 2 entered
+i:40     0       1 0 2          6 evicted, 0 entered
+i:41     4       4 0 2          1 evicted, 4 entered
+i:42     1       4 0 1          2 evicted, 1 entered
+i:43     5       4 5 1          0 evicted, 5 entered
+i:44     7       7 5 1          4 evicted, 7 entered
+i:45     3       7 5 3          1 evicted, 3 entered
+i:46     1       7 1 3          5 evicted, 1 entered
+i:47     1       7 1 3
+i:48     2       2 1 3          7 evicted, 2 entered
+i:49     2       2 1 3
+i:50     1       2 1 3
+i:51     1       2 1 3
+i:52     1       2 1 3
+i:53     7       2 1 7          3 evicted, 7 entered
+i:54     7       2 1 7
+i:55     6       6 1 7          2 evicted, 6 entered
+i:56     3       6 3 7          1 evicted, 3 entered
+i:57     2       6 3 2          7 evicted, 2 entered
+i:58     2       6 3 2
+i:59     3       6 3 2
+i:60     1       1 3 2          6 evicted, 1 entered
+i:61     1       1 3 2
+i:62     4       1 3 4          2 evicted, 4 entered
+i:63     4       1 3 4
+i:64     3       1 3 4
+i:65     1       1 3 4
+i:66     4       1 3 4
+i:67     4       1 3 4
+i:68     7       1 7 4          3 evicted, 7 entered
+i:69     7       1 7 4
+i:70     7       1 7 4
+i:71     7       1 7 4
+i:72     2       2 7 4          1 evicted, 2 entered
+i:73     7       2 7 4
+i:74     6       2 7 6          4 evicted, 6 entered
+i:75     7       2 7 6
+i:76     3       3 7 6          2 evicted, 3 entered
+i:77     3       3 7 6
+i:78     7       3 7 6
+i:79     4       3 7 4          6 evicted, 4 entered
+i:80     4       3 7 4
+i:81     4       3 7 4
+i:82     5       5 7 4          3 evicted, 5 entered
+i:83     4       5 7 4
+i:84     1       5 1 4          7 evicted, 1 entered
+i:85     5       5 1 4
+i:86     5       5 1 4
+i:87     4       5 1 4
+i:88     2       5 2 4          1 evicted, 2 entered
+i:89     2       5 2 4
+i:90     1       1 2 4          5 evicted, 1 entered
+i:91     6       1 2 6          4 evicted, 6 entered
+i:92     6       1 2 6
+i:93     6       1 2 6
+i:94     5       1 5 6          2 evicted, 5 entered
+i:95     0       0 5 6          1 evicted, 0 entered
+i:96     0       0 5 6
+i:97     0       0 5 6
+i:98     1       0 5 1          6 evicted, 1 entered
+i:99     4       0 4 1          5 evicted, 4 entered
+Simulation #1 Statistics - Hit Ratio: 52% Page Swaps: 45
+
+Simulation #2
+Index    Ref     Frames          Action
+i:0      7       7 -1 -1
+i:1      7       7 -1 -1
+i:2      1       7 1 -1
+i:3      4       7 1 4
+i:4      1       7 1 4
+i:5      4       7 1 4
+i:6      6       6 1 4          7 evicted, 6 entered
+i:7      5       6 5 4          1 evicted, 5 entered
+i:8      0       6 5 0          4 evicted, 0 entered
+i:9      0       6 5 0
+i:10     0       6 5 0
+i:11     6       6 5 0
+i:12     5       6 5 0
+i:13     4       6 5 4          0 evicted, 4 entered
+i:14     0       0 5 4          6 evicted, 0 entered
+i:15     1       0 1 4          5 evicted, 1 entered
+i:16     0       0 1 4
+i:17     0       0 1 4
+i:18     0       0 1 4
+i:19     1       0 1 4
+i:20     1       0 1 4
+i:21     1       0 1 4
+i:22     1       0 1 4
+i:23     7       0 1 7          4 evicted, 7 entered
+i:24     6       6 1 7          0 evicted, 6 entered
+i:25     1       6 1 7
+i:26     1       6 1 7
+i:27     1       6 1 7
+i:28     4       6 1 4          7 evicted, 4 entered
+i:29     0       0 1 4          6 evicted, 0 entered
+i:30     0       0 1 4
+i:31     5       0 5 4          1 evicted, 5 entered
+i:32     1       0 5 1          4 evicted, 1 entered
+i:33     3       3 5 1          0 evicted, 3 entered
+i:34     1       3 5 1
+i:35     3       3 5 1
+i:36     5       3 5 1
+i:37     6       3 5 6          1 evicted, 6 entered
+i:38     5       3 5 6
+i:39     0       0 5 6          3 evicted, 0 entered
+i:40     7       0 5 7          6 evicted, 7 entered
+i:41     7       0 5 7
+i:42     0       0 5 7
+i:43     0       0 5 7
+i:44     0       0 5 7
+i:45     0       0 5 7
+i:46     3       0 3 7          5 evicted, 3 entered
+i:47     0       0 3 7
+i:48     1       0 3 1          7 evicted, 1 entered
+i:49     1       0 3 1
+i:50     1       0 3 1
+i:51     2       0 2 1          3 evicted, 2 entered
+i:52     7       7 2 1          0 evicted, 7 entered
+i:53     6       7 2 6          1 evicted, 6 entered
+i:54     1       7 1 6          2 evicted, 1 entered
+i:55     0       0 1 6          7 evicted, 0 entered
+i:56     6       0 1 6
+i:57     5       0 5 6          1 evicted, 5 entered
+i:58     1       1 5 6          0 evicted, 1 entered
+i:59     1       1 5 6
+i:60     3       1 5 3          6 evicted, 3 entered
+i:61     2       1 2 3          5 evicted, 2 entered
+i:62     1       1 2 3
+i:63     0       1 2 0          3 evicted, 0 entered
+i:64     3       1 3 0          2 evicted, 3 entered
+i:65     3       1 3 0
+i:66     1       1 3 0
+i:67     3       1 3 0
+i:68     2       1 3 2          0 evicted, 2 entered
+i:69     0       0 3 2          1 evicted, 0 entered
+i:70     0       0 3 2
+i:71     0       0 3 2
+i:72     0       0 3 2
+i:73     7       0 7 2          3 evicted, 7 entered
+i:74     7       0 7 2
+i:75     7       0 7 2
+i:76     6       0 7 6          2 evicted, 6 entered
+i:77     6       0 7 6
+i:78     7       0 7 6
+i:79     7       0 7 6
+i:80     7       0 7 6
+i:81     6       0 7 6
+i:82     7       0 7 6
+i:83     7       0 7 6
+i:84     7       0 7 6
+i:85     1       1 7 6          0 evicted, 1 entered
+i:86     3       1 7 3          6 evicted, 3 entered
+i:87     1       1 7 3
+i:88     4       1 4 3          7 evicted, 4 entered
+i:89     1       1 4 3
+i:90     5       1 4 5          3 evicted, 5 entered
+i:91     1       1 4 5
+i:92     1       1 4 5
+i:93     7       1 7 5          4 evicted, 7 entered
+i:94     6       1 7 6          5 evicted, 6 entered
+i:95     5       5 7 6          1 evicted, 5 entered
+i:96     5       5 7 6
+i:97     5       5 7 6
+i:98     5       5 7 6
+i:99     5       5 7 6
+Simulation #2 Statistics - Hit Ratio: 57% Page Swaps: 40
+
+Simulation #3
+Index    Ref     Frames          Action
+i:0      3       3 -1 -1
+i:1      1       3 1 -1
+i:2      4       3 1 4
+i:3      4       3 1 4
+i:4      4       3 1 4
+i:5      1       3 1 4
+i:6      3       3 1 4
+i:7      3       3 1 4
+i:8      2       3 1 2          4 evicted, 2 entered
+i:9      1       3 1 2
+i:10     3       3 1 2
+i:11     2       3 1 2
+i:12     2       3 1 2
+i:13     2       3 1 2
+i:14     4       3 4 2          1 evicted, 4 entered
+i:15     3       3 4 2
+i:16     3       3 4 2
+i:17     1       3 4 1          2 evicted, 1 entered
+i:18     4       3 4 1
+i:19     6       6 4 1          3 evicted, 6 entered
+i:20     5       6 4 5          1 evicted, 5 entered
+i:21     5       6 4 5
+i:22     5       6 4 5
+i:23     5       6 4 5
+i:24     5       6 4 5
+i:25     5       6 4 5
+i:26     4       6 4 5
+i:27     4       6 4 5
+i:28     1       1 4 5          6 evicted, 1 entered
+i:29     5       1 4 5
+i:30     5       1 4 5
+i:31     5       1 4 5
+i:32     1       1 4 5
+i:33     0       1 0 5          4 evicted, 0 entered
+i:34     5       1 0 5
+i:35     1       1 0 5
+i:36     1       1 0 5
+i:37     5       1 0 5
+i:38     5       1 0 5
+i:39     5       1 0 5
+i:40     5       1 0 5
+i:41     5       1 0 5
+i:42     1       1 0 5
+i:43     1       1 0 5
+i:44     5       1 0 5
+i:45     1       1 0 5
+i:46     4       1 4 5          0 evicted, 4 entered
+i:47     3       1 4 3          5 evicted, 3 entered
+i:48     5       5 4 3          1 evicted, 5 entered
+i:49     5       5 4 3
+i:50     1       5 1 3          4 evicted, 1 entered
+i:51     0       5 1 0          3 evicted, 0 entered
+i:52     1       5 1 0
+i:53     0       5 1 0
+i:54     6       6 1 0          5 evicted, 6 entered
+i:55     6       6 1 0
+i:56     4       6 4 0          1 evicted, 4 entered
+i:57     6       6 4 0
+i:58     5       6 4 5          0 evicted, 5 entered
+i:59     5       6 4 5
+i:60     2       6 2 5          4 evicted, 2 entered
+i:61     2       6 2 5
+i:62     2       6 2 5
+i:63     1       1 2 5          6 evicted, 1 entered
+i:64     0       1 2 0          5 evicted, 0 entered
+i:65     0       1 2 0
+i:66     0       1 2 0
+i:67     0       1 2 0
+i:68     2       1 2 0
+i:69     2       1 2 0
+i:70     2       1 2 0
+i:71     7       7 2 0          1 evicted, 7 entered
+i:72     7       7 2 0
+i:73     5       7 2 5          0 evicted, 5 entered
+i:74     5       7 2 5
+i:75     1       7 1 5          2 evicted, 1 entered
+i:76     5       7 1 5
+i:77     1       7 1 5
+i:78     1       7 1 5
+i:79     1       7 1 5
+i:80     6       6 1 5          7 evicted, 6 entered
+i:81     0       6 1 0          5 evicted, 0 entered
+i:82     0       6 1 0
+i:83     1       6 1 0
+i:84     0       6 1 0
+i:85     0       6 1 0
+i:86     3       3 1 0          6 evicted, 3 entered
+i:87     7       3 7 0          1 evicted, 7 entered
+i:88     6       3 7 6          0 evicted, 6 entered
+i:89     5       5 7 6          3 evicted, 5 entered
+i:90     4       5 4 6          7 evicted, 4 entered
+i:91     3       5 4 3          6 evicted, 3 entered
+i:92     1       1 4 3          5 evicted, 1 entered
+i:93     1       1 4 3
+i:94     5       1 5 3          4 evicted, 5 entered
+i:95     7       1 5 7          3 evicted, 7 entered
+i:96     2       2 5 7          1 evicted, 2 entered
+i:97     2       2 5 7
+i:98     7       2 5 7
+i:99     2       2 5 7
+Simulation #3 Statistics - Hit Ratio: 64% Page Swaps: 33
+
+Simulation #4
+Index    Ref     Frames          Action
+i:0      0       0 -1 -1
+i:1      4       0 4 -1
+i:2      3       0 4 3
+i:3      1       1 4 3          0 evicted, 1 entered
+i:4      4       1 4 3
+i:5      1       1 4 3
+i:6      5       1 4 5          3 evicted, 5 entered
+i:7      1       1 4 5
+i:8      2       1 2 5          4 evicted, 2 entered
+i:9      1       1 2 5
+i:10     1       1 2 5
+i:11     1       1 2 5
+i:12     0       1 2 0          5 evicted, 0 entered
+i:13     0       1 2 0
+i:14     0       1 2 0
+i:15     0       1 2 0
+i:16     0       1 2 0
+i:17     0       1 2 0
+i:18     1       1 2 0
+i:19     0       1 2 0
+i:20     4       1 4 0          2 evicted, 4 entered
+i:21     1       1 4 0
+i:22     3       1 4 3          0 evicted, 3 entered
+i:23     1       1 4 3
+i:24     4       1 4 3
+i:25     4       1 4 3
+i:26     3       1 4 3
+i:27     2       2 4 3          1 evicted, 2 entered
+i:28     3       2 4 3
+i:29     2       2 4 3
+i:30     1       2 1 3          4 evicted, 1 entered
+i:31     1       2 1 3
+i:32     1       2 1 3
+i:33     2       2 1 3
+i:34     1       2 1 3
+i:35     1       2 1 3
+i:36     3       2 1 3
+i:37     1       2 1 3
+i:38     4       4 1 3          2 evicted, 4 entered
+i:39     5       4 1 5          3 evicted, 5 entered
+i:40     7       4 7 5          1 evicted, 7 entered
+i:41     7       4 7 5
+i:42     2       2 7 5          4 evicted, 2 entered
+i:43     0       2 7 0          5 evicted, 0 entered
+i:44     3       2 3 0          7 evicted, 3 entered
+i:45     7       7 3 0          2 evicted, 7 entered
+i:46     3       7 3 0
+i:47     1       7 3 1          0 evicted, 1 entered
+i:48     1       7 3 1
+i:49     0       0 3 1          7 evicted, 0 entered
+i:50     0       0 3 1
+i:51     1       0 3 1
+i:52     1       0 3 1
+i:53     5       0 5 1          3 evicted, 5 entered
+i:54     5       0 5 1
+i:55     1       0 5 1
+i:56     0       0 5 1
+i:57     6       0 6 1          5 evicted, 6 entered
+i:58     5       0 6 5          1 evicted, 5 entered
+i:59     1       1 6 5          0 evicted, 1 entered
+i:60     7       1 7 5          6 evicted, 7 entered
+i:61     6       1 7 6          5 evicted, 6 entered
+i:62     7       1 7 6
+i:63     6       1 7 6
+i:64     1       1 7 6
+i:65     7       1 7 6
+i:66     2       1 7 2          6 evicted, 2 entered
+i:67     1       1 7 2
+i:68     1       1 7 2
+i:69     1       1 7 2
+i:70     0       1 0 2          7 evicted, 0 entered
+i:71     0       1 0 2
+i:72     0       1 0 2
+i:73     0       1 0 2
+i:74     5       1 0 5          2 evicted, 5 entered
+i:75     3       3 0 5          1 evicted, 3 entered
+i:76     3       3 0 5
+i:77     3       3 0 5
+i:78     1       3 1 5          0 evicted, 1 entered
+i:79     1       3 1 5
+i:80     5       3 1 5
+i:81     5       3 1 5
+i:82     2       2 1 5          3 evicted, 2 entered
+i:83     7       2 7 5          1 evicted, 7 entered
+i:84     7       2 7 5
+i:85     2       2 7 5
+i:86     1       2 7 1          5 evicted, 1 entered
+i:87     0       2 0 1          7 evicted, 0 entered
+i:88     3       3 0 1          2 evicted, 3 entered
+i:89     3       3 0 1
+i:90     3       3 0 1
+i:91     3       3 0 1
+i:92     2       3 0 2          1 evicted, 2 entered
+i:93     2       3 0 2
+i:94     3       3 0 2
+i:95     1       3 1 2          0 evicted, 1 entered
+i:96     6       3 1 6          2 evicted, 6 entered
+i:97     0       0 1 6          3 evicted, 0 entered
+i:98     1       0 1 6
+i:99     1       0 1 6
+Simulation #4 Statistics - Hit Ratio: 60% Page Swaps: 37
+
+Simulation #5
+Index    Ref     Frames          Action
+i:0      1       1 -1 -1
+i:1      0       1 0 -1
+i:2      1       1 0 -1
+i:3      7       1 0 7
+i:4      1       1 0 7
+i:5      6       1 6 7          0 evicted, 6 entered
+i:6      6       1 6 7
+i:7      5       1 6 5          7 evicted, 5 entered
+i:8      4       4 6 5          1 evicted, 4 entered
+i:9      1       4 1 5          6 evicted, 1 entered
+i:10     5       4 1 5
+i:11     6       6 1 5          4 evicted, 6 entered
+i:12     4       6 4 5          1 evicted, 4 entered
+i:13     4       6 4 5
+i:14     1       6 4 1          5 evicted, 1 entered
+i:15     1       6 4 1
+i:16     6       6 4 1
+i:17     5       6 5 1          4 evicted, 5 entered
+i:18     5       6 5 1
+i:19     4       6 5 4          1 evicted, 4 entered
+i:20     3       3 5 4          6 evicted, 3 entered
+i:21     1       3 1 4          5 evicted, 1 entered
+i:22     0       3 1 0          4 evicted, 0 entered
+i:23     1       3 1 0
+i:24     1       3 1 0
+i:25     1       3 1 0
+i:26     7       7 1 0          3 evicted, 7 entered
+i:27     6       7 1 6          0 evicted, 6 entered
+i:28     1       7 1 6
+i:29     1       7 1 6
+i:30     1       7 1 6
+i:31     1       7 1 6
+i:32     7       7 1 6
+i:33     0       7 1 0          6 evicted, 0 entered
+i:34     0       7 1 0
+i:35     0       7 1 0
+i:36     0       7 1 0
+i:37     1       7 1 0
+i:38     1       7 1 0
+i:39     4       4 1 0          7 evicted, 4 entered
+i:40     7       4 1 7          0 evicted, 7 entered
+i:41     7       4 1 7
+i:42     1       4 1 7
+i:43     0       0 1 7          4 evicted, 0 entered
+i:44     1       0 1 7
+i:45     2       0 1 2          7 evicted, 2 entered
+i:46     1       0 1 2
+i:47     1       0 1 2
+i:48     1       0 1 2
+i:49     3       3 1 2          0 evicted, 3 entered
+i:50     5       3 1 5          2 evicted, 5 entered
+i:51     5       3 1 5
+i:52     4       3 4 5          1 evicted, 4 entered
+i:53     4       3 4 5
+i:54     7       7 4 5          3 evicted, 7 entered
+i:55     3       7 4 3          5 evicted, 3 entered
+i:56     1       7 1 3          4 evicted, 1 entered
+i:57     1       7 1 3
+i:58     0       0 1 3          7 evicted, 0 entered
+i:59     0       0 1 3
+i:60     0       0 1 3
+i:61     0       0 1 3
+i:62     1       0 1 3
+i:63     2       0 1 2          3 evicted, 2 entered
+i:64     4       4 1 2          0 evicted, 4 entered
+i:65     1       4 1 2
+i:66     5       4 1 5          2 evicted, 5 entered
+i:67     5       4 1 5
+i:68     5       4 1 5
+i:69     4       4 1 5
+i:70     2       4 2 5          1 evicted, 2 entered
+i:71     2       4 2 5
+i:72     6       4 2 6          5 evicted, 6 entered
+i:73     6       4 2 6
+i:74     6       4 2 6
+i:75     1       1 2 6          4 evicted, 1 entered
+i:76     7       1 7 6          2 evicted, 7 entered
+i:77     7       1 7 6
+i:78     7       1 7 6
+i:79     7       1 7 6
+i:80     6       1 7 6
+i:81     0       0 7 6          1 evicted, 0 entered
+i:82     0       0 7 6
+i:83     2       0 2 6          7 evicted, 2 entered
+i:84     1       0 2 1          6 evicted, 1 entered
+i:85     5       5 2 1          0 evicted, 5 entered
+i:86     5       5 2 1
+i:87     0       5 0 1          2 evicted, 0 entered
+i:88     6       5 0 6          1 evicted, 6 entered
+i:89     6       5 0 6
+i:90     5       5 0 6
+i:91     1       5 1 6          0 evicted, 1 entered
+i:92     1       5 1 6
+i:93     1       5 1 6
+i:94     1       5 1 6
+i:95     6       5 1 6
+i:96     1       5 1 6
+i:97     1       5 1 6
+i:98     1       5 1 6
+i:99     4       4 1 6          5 evicted, 4 entered
+Simulation #5 Statistics - Hit Ratio: 56% Page Swaps: 41
+
+Ending LRU Simulation
+******************************
+******************************
+Beginning LFU Simulation
+
+Simulation #1
+Index    Ref     Frames          Action
+i:0      1       1 -1 -1
+i:1      0       1 0 -1
+i:2      1       1 0 -1
+i:3      1       1 0 -1
+i:4      6       1 0 6
+i:5      1       1 0 6
+i:6      7       1 7 6          0 evicted, 7 entered
+i:7      6       1 7 6
+i:8      5       1 5 6          7 evicted, 5 entered
+i:9      4       1 4 6          5 evicted, 4 entered
+i:10     1       1 4 6
+i:11     1       1 4 6
+i:12     1       1 4 6
+i:13     1       1 4 6
+i:14     0       1 0 6          4 evicted, 0 entered
+i:15     0       1 0 6
+i:16     6       1 0 6
+i:17     2       1 2 6          0 evicted, 2 entered
+i:18     4       1 4 6          2 evicted, 4 entered
+i:19     4       1 4 6
+i:20     4       1 4 6
+i:21     3       1 3 6          4 evicted, 3 entered
+i:22     6       1 3 6
+i:23     4       1 4 6          3 evicted, 4 entered
+i:24     1       1 4 6
+i:25     4       1 4 6
+i:26     4       1 4 6
+i:27     4       1 4 6
+i:28     3       1 3 6          4 evicted, 3 entered
+i:29     1       1 3 6
+i:30     7       1 7 6          3 evicted, 7 entered
+i:31     3       1 3 6          7 evicted, 3 entered
+i:32     7       1 7 6          3 evicted, 7 entered
+i:33     7       1 7 6
+i:34     6       1 7 6
+i:35     6       1 7 6
+i:36     5       1 5 6          7 evicted, 5 entered
+i:37     6       1 5 6
+i:38     1       1 5 6
+i:39     2       1 2 6          5 evicted, 2 entered
+i:40     0       1 0 6          2 evicted, 0 entered
+i:41     4       1 4 6          0 evicted, 4 entered
+i:42     1       1 4 6
+i:43     5       1 5 6          4 evicted, 5 entered
+i:44     7       1 7 6          5 evicted, 7 entered
+i:45     3       1 3 6          7 evicted, 3 entered
+i:46     1       1 3 6
+i:47     1       1 3 6
+i:48     2       1 2 6          3 evicted, 2 entered
+i:49     2       1 2 6
+i:50     1       1 2 6
+i:51     1       1 2 6
+i:52     1       1 2 6
+i:53     7       1 7 6          2 evicted, 7 entered
+i:54     7       1 7 6
+i:55     6       1 7 6
+i:56     3       1 3 6          7 evicted, 3 entered
+i:57     2       1 2 6          3 evicted, 2 entered
+i:58     2       1 2 6
+i:59     3       1 3 6          2 evicted, 3 entered
+i:60     1       1 3 6
+i:61     1       1 3 6
+i:62     4       1 4 6          3 evicted, 4 entered
+i:63     4       1 4 6
+i:64     3       1 3 6          4 evicted, 3 entered
+i:65     1       1 3 6
+i:66     4       1 4 6          3 evicted, 4 entered
+i:67     4       1 4 6
+i:68     7       1 7 6          4 evicted, 7 entered
+i:69     7       1 7 6
+i:70     7       1 7 6
+i:71     7       1 7 6
+i:72     2       1 2 6          7 evicted, 2 entered
+i:73     7       1 7 6          2 evicted, 7 entered
+i:74     6       1 7 6
+i:75     7       1 7 6
+i:76     3       1 3 6          7 evicted, 3 entered
+i:77     3       1 3 6
+i:78     7       1 7 6          3 evicted, 7 entered
+i:79     4       1 4 6          7 evicted, 4 entered
+i:80     4       1 4 6
+i:81     4       1 4 6
+i:82     5       1 5 6          4 evicted, 5 entered
+i:83     4       1 4 6          5 evicted, 4 entered
+i:84     1       1 4 6
+i:85     5       1 5 6          4 evicted, 5 entered
+i:86     5       1 5 6
+i:87     4       1 4 6          5 evicted, 4 entered
+i:88     2       1 2 6          4 evicted, 2 entered
+i:89     2       1 2 6
+i:90     1       1 2 6
+i:91     6       1 2 6
+i:92     6       1 2 6
+i:93     6       1 2 6
+i:94     5       1 5 6          2 evicted, 5 entered
+i:95     0       1 0 6          5 evicted, 0 entered
+i:96     0       1 0 6
+i:97     0       1 0 6
+i:98     1       1 0 6
+i:99     4       1 4 6          0 evicted, 4 entered
+Simulation #1 Statistics - Hit Ratio: 56% Page Swaps: 41
+
+Simulation #2
+Index    Ref     Frames          Action
+i:0      7       7 -1 -1
+i:1      7       7 -1 -1
+i:2      1       7 1 -1
+i:3      4       7 1 4
+i:4      1       7 1 4
+i:5      4       7 1 4
+i:6      6       6 1 4          7 evicted, 6 entered
+i:7      5       5 1 4          6 evicted, 5 entered
+i:8      0       0 1 4          5 evicted, 0 entered
+i:9      0       0 1 4
+i:10     0       0 1 4
+i:11     6       0 6 4          1 evicted, 6 entered
+i:12     5       0 5 4          6 evicted, 5 entered
+i:13     4       0 5 4
+i:14     0       0 5 4
+i:15     1       0 1 4          5 evicted, 1 entered
+i:16     0       0 1 4
+i:17     0       0 1 4
+i:18     0       0 1 4
+i:19     1       0 1 4
+i:20     1       0 1 4
+i:21     1       0 1 4
+i:22     1       0 1 4
+i:23     7       0 1 7          4 evicted, 7 entered
+i:24     6       0 1 6          7 evicted, 6 entered
+i:25     1       0 1 6
+i:26     1       0 1 6
+i:27     1       0 1 6
+i:28     4       0 1 4          6 evicted, 4 entered
+i:29     0       0 1 4
+i:30     0       0 1 4
+i:31     5       0 1 5          4 evicted, 5 entered
+i:32     1       0 1 5
+i:33     3       0 1 3          5 evicted, 3 entered
+i:34     1       0 1 3
+i:35     3       0 1 3
+i:36     5       0 1 5          3 evicted, 5 entered
+i:37     6       0 1 6          5 evicted, 6 entered
+i:38     5       0 1 5          6 evicted, 5 entered
+i:39     0       0 1 5
+i:40     7       0 1 7          5 evicted, 7 entered
+i:41     7       0 1 7
+i:42     0       0 1 7
+i:43     0       0 1 7
+i:44     0       0 1 7
+i:45     0       0 1 7
+i:46     3       0 1 3          7 evicted, 3 entered
+i:47     0       0 1 3
+i:48     1       0 1 3
+i:49     1       0 1 3
+i:50     1       0 1 3
+i:51     2       0 1 2          3 evicted, 2 entered
+i:52     7       0 1 7          2 evicted, 7 entered
+i:53     6       0 1 6          7 evicted, 6 entered
+i:54     1       0 1 6
+i:55     0       0 1 6
+i:56     6       0 1 6
+i:57     5       0 1 5          6 evicted, 5 entered
+i:58     1       0 1 5
+i:59     1       0 1 5
+i:60     3       0 1 3          5 evicted, 3 entered
+i:61     2       0 1 2          3 evicted, 2 entered
+i:62     1       0 1 2
+i:63     0       0 1 2
+i:64     3       0 1 3          2 evicted, 3 entered
+i:65     3       0 1 3
+i:66     1       0 1 3
+i:67     3       0 1 3
+i:68     2       0 1 2          3 evicted, 2 entered
+i:69     0       0 1 2
+i:70     0       0 1 2
+i:71     0       0 1 2
+i:72     0       0 1 2
+i:73     7       0 1 7          2 evicted, 7 entered
+i:74     7       0 1 7
+i:75     7       0 1 7
+i:76     6       0 1 6          7 evicted, 6 entered
+i:77     6       0 1 6
+i:78     7       0 1 7          6 evicted, 7 entered
+i:79     7       0 1 7
+i:80     7       0 1 7
+i:81     6       0 1 6          7 evicted, 6 entered
+i:82     7       0 1 7          6 evicted, 7 entered
+i:83     7       0 1 7
+i:84     7       0 1 7
+i:85     1       0 1 7
+i:86     3       0 1 3          7 evicted, 3 entered
+i:87     1       0 1 3
+i:88     4       0 1 4          3 evicted, 4 entered
+i:89     1       0 1 4
+i:90     5       0 1 5          4 evicted, 5 entered
+i:91     1       0 1 5
+i:92     1       0 1 5
+i:93     7       0 1 7          5 evicted, 7 entered
+i:94     6       0 1 6          7 evicted, 6 entered
+i:95     5       0 1 5          6 evicted, 5 entered
+i:96     5       0 1 5
+i:97     5       0 1 5
+i:98     5       0 1 5
+i:99     5       0 1 5
+Simulation #2 Statistics - Hit Ratio: 62% Page Swaps: 35
+
+Simulation #3
+Index    Ref     Frames          Action
+i:0      3       3 -1 -1
+i:1      1       3 1 -1
+i:2      4       3 1 4
+i:3      4       3 1 4
+i:4      4       3 1 4
+i:5      1       3 1 4
+i:6      3       3 1 4
+i:7      3       3 1 4
+i:8      2       3 2 4          1 evicted, 2 entered
+i:9      1       3 1 4          2 evicted, 1 entered
+i:10     3       3 1 4
+i:11     2       3 2 4          1 evicted, 2 entered
+i:12     2       3 2 4
+i:13     2       3 2 4
+i:14     4       3 2 4
+i:15     3       3 2 4
+i:16     3       3 2 4
+i:17     1       3 1 4          2 evicted, 1 entered
+i:18     4       3 1 4
+i:19     6       3 6 4          1 evicted, 6 entered
+i:20     5       3 5 4          6 evicted, 5 entered
+i:21     5       3 5 4
+i:22     5       3 5 4
+i:23     5       3 5 4
+i:24     5       3 5 4
+i:25     5       3 5 4
+i:26     4       3 5 4
+i:27     4       3 5 4
+i:28     1       1 5 4          3 evicted, 1 entered
+i:29     5       1 5 4
+i:30     5       1 5 4
+i:31     5       1 5 4
+i:32     1       1 5 4
+i:33     0       0 5 4          1 evicted, 0 entered
+i:34     5       0 5 4
+i:35     1       1 5 4          0 evicted, 1 entered
+i:36     1       1 5 4
+i:37     5       1 5 4
+i:38     5       1 5 4
+i:39     5       1 5 4
+i:40     5       1 5 4
+i:41     5       1 5 4
+i:42     1       1 5 4
+i:43     1       1 5 4
+i:44     5       1 5 4
+i:45     1       1 5 4
+i:46     4       1 5 4
+i:47     3       3 5 4          1 evicted, 3 entered
+i:48     5       3 5 4
+i:49     5       3 5 4
+i:50     1       1 5 4          3 evicted, 1 entered
+i:51     0       0 5 4          1 evicted, 0 entered
+i:52     1       1 5 4          0 evicted, 1 entered
+i:53     0       0 5 4          1 evicted, 0 entered
+i:54     6       6 5 4          0 evicted, 6 entered
+i:55     6       6 5 4
+i:56     4       6 5 4
+i:57     6       6 5 4
+i:58     5       6 5 4
+i:59     5       6 5 4
+i:60     2       2 5 4          6 evicted, 2 entered
+i:61     2       2 5 4
+i:62     2       2 5 4
+i:63     1       1 5 4          2 evicted, 1 entered
+i:64     0       0 5 4          1 evicted, 0 entered
+i:65     0       0 5 4
+i:66     0       0 5 4
+i:67     0       0 5 4
+i:68     2       2 5 4          0 evicted, 2 entered
+i:69     2       2 5 4
+i:70     2       2 5 4
+i:71     7       7 5 4          2 evicted, 7 entered
+i:72     7       7 5 4
+i:73     5       7 5 4
+i:74     5       7 5 4
+i:75     1       1 5 4          7 evicted, 1 entered
+i:76     5       1 5 4
+i:77     1       1 5 4
+i:78     1       1 5 4
+i:79     1       1 5 4
+i:80     6       6 5 4          1 evicted, 6 entered
+i:81     0       0 5 4          6 evicted, 0 entered
+i:82     0       0 5 4
+i:83     1       1 5 4          0 evicted, 1 entered
+i:84     0       0 5 4          1 evicted, 0 entered
+i:85     0       0 5 4
+i:86     3       3 5 4          0 evicted, 3 entered
+i:87     7       7 5 4          3 evicted, 7 entered
+i:88     6       6 5 4          7 evicted, 6 entered
+i:89     5       6 5 4
+i:90     4       6 5 4
+i:91     3       3 5 4          6 evicted, 3 entered
+i:92     1       1 5 4          3 evicted, 1 entered
+i:93     1       1 5 4
+i:94     5       1 5 4
+i:95     7       7 5 4          1 evicted, 7 entered
+i:96     2       2 5 4          7 evicted, 2 entered
+i:97     2       2 5 4
+i:98     7       7 5 4          2 evicted, 7 entered
+i:99     2       2 5 4          7 evicted, 2 entered
+Simulation #3 Statistics - Hit Ratio: 63% Page Swaps: 34
+
+Simulation #4
+Index    Ref     Frames          Action
+i:0      0       0 -1 -1
+i:1      4       0 4 -1
+i:2      3       0 4 3
+i:3      1       1 4 3          0 evicted, 1 entered
+i:4      4       1 4 3
+i:5      1       1 4 3
+i:6      5       1 4 5          3 evicted, 5 entered
+i:7      1       1 4 5
+i:8      2       1 4 2          5 evicted, 2 entered
+i:9      1       1 4 2
+i:10     1       1 4 2
+i:11     1       1 4 2
+i:12     0       1 4 0          2 evicted, 0 entered
+i:13     0       1 4 0
+i:14     0       1 4 0
+i:15     0       1 4 0
+i:16     0       1 4 0
+i:17     0       1 4 0
+i:18     1       1 4 0
+i:19     0       1 4 0
+i:20     4       1 4 0
+i:21     1       1 4 0
+i:22     3       1 3 0          4 evicted, 3 entered
+i:23     1       1 3 0
+i:24     4       1 4 0          3 evicted, 4 entered
+i:25     4       1 4 0
+i:26     3       1 3 0          4 evicted, 3 entered
+i:27     2       1 2 0          3 evicted, 2 entered
+i:28     3       1 3 0          2 evicted, 3 entered
+i:29     2       1 2 0          3 evicted, 2 entered
+i:30     1       1 2 0
+i:31     1       1 2 0
+i:32     1       1 2 0
+i:33     2       1 2 0
+i:34     1       1 2 0
+i:35     1       1 2 0
+i:36     3       1 3 0          2 evicted, 3 entered
+i:37     1       1 3 0
+i:38     4       1 4 0          3 evicted, 4 entered
+i:39     5       1 5 0          4 evicted, 5 entered
+i:40     7       1 7 0          5 evicted, 7 entered
+i:41     7       1 7 0
+i:42     2       1 2 0          7 evicted, 2 entered
+i:43     0       1 2 0
+i:44     3       1 3 0          2 evicted, 3 entered
+i:45     7       1 7 0          3 evicted, 7 entered
+i:46     3       1 3 0          7 evicted, 3 entered
+i:47     1       1 3 0
+i:48     1       1 3 0
+i:49     0       1 3 0
+i:50     0       1 3 0
+i:51     1       1 3 0
+i:52     1       1 3 0
+i:53     5       1 5 0          3 evicted, 5 entered
+i:54     5       1 5 0
+i:55     1       1 5 0
+i:56     0       1 5 0
+i:57     6       1 6 0          5 evicted, 6 entered
+i:58     5       1 5 0          6 evicted, 5 entered
+i:59     1       1 5 0
+i:60     7       1 7 0          5 evicted, 7 entered
+i:61     6       1 6 0          7 evicted, 6 entered
+i:62     7       1 7 0          6 evicted, 7 entered
+i:63     6       1 6 0          7 evicted, 6 entered
+i:64     1       1 6 0
+i:65     7       1 7 0          6 evicted, 7 entered
+i:66     2       1 2 0          7 evicted, 2 entered
+i:67     1       1 2 0
+i:68     1       1 2 0
+i:69     1       1 2 0
+i:70     0       1 2 0
+i:71     0       1 2 0
+i:72     0       1 2 0
+i:73     0       1 2 0
+i:74     5       1 5 0          2 evicted, 5 entered
+i:75     3       1 3 0          5 evicted, 3 entered
+i:76     3       1 3 0
+i:77     3       1 3 0
+i:78     1       1 3 0
+i:79     1       1 3 0
+i:80     5       1 5 0          3 evicted, 5 entered
+i:81     5       1 5 0
+i:82     2       1 2 0          5 evicted, 2 entered
+i:83     7       1 7 0          2 evicted, 7 entered
+i:84     7       1 7 0
+i:85     2       1 2 0          7 evicted, 2 entered
+i:86     1       1 2 0
+i:87     0       1 2 0
+i:88     3       1 3 0          2 evicted, 3 entered
+i:89     3       1 3 0
+i:90     3       1 3 0
+i:91     3       1 3 0
+i:92     2       1 2 0          3 evicted, 2 entered
+i:93     2       1 2 0
+i:94     3       1 3 0          2 evicted, 3 entered
+i:95     1       1 3 0
+i:96     6       1 6 0          3 evicted, 6 entered
+i:97     0       1 6 0
+i:98     1       1 6 0
+i:99     1       1 6 0
+Simulation #4 Statistics - Hit Ratio: 60% Page Swaps: 37
+
+Simulation #5
+Index    Ref     Frames          Action
+i:0      1       1 -1 -1
+i:1      0       1 0 -1
+i:2      1       1 0 -1
+i:3      7       1 0 7
+i:4      1       1 0 7
+i:5      6       1 6 7          0 evicted, 6 entered
+i:6      6       1 6 7
+i:7      5       1 6 5          7 evicted, 5 entered
+i:8      4       1 6 4          5 evicted, 4 entered
+i:9      1       1 6 4
+i:10     5       1 6 5          4 evicted, 5 entered
+i:11     6       1 6 5
+i:12     4       1 6 4          5 evicted, 4 entered
+i:13     4       1 6 4
+i:14     1       1 6 4
+i:15     1       1 6 4
+i:16     6       1 6 4
+i:17     5       1 6 5          4 evicted, 5 entered
+i:18     5       1 6 5
+i:19     4       1 6 4          5 evicted, 4 entered
+i:20     3       1 6 3          4 evicted, 3 entered
+i:21     1       1 6 3
+i:22     0       1 6 0          3 evicted, 0 entered
+i:23     1       1 6 0
+i:24     1       1 6 0
+i:25     1       1 6 0
+i:26     7       1 6 7          0 evicted, 7 entered
+i:27     6       1 6 7
+i:28     1       1 6 7
+i:29     1       1 6 7
+i:30     1       1 6 7
+i:31     1       1 6 7
+i:32     7       1 6 7
+i:33     0       1 6 0          7 evicted, 0 entered
+i:34     0       1 6 0
+i:35     0       1 6 0
+i:36     0       1 6 0
+i:37     1       1 6 0
+i:38     1       1 6 0
+i:39     4       1 6 4          0 evicted, 4 entered
+i:40     7       1 6 7          4 evicted, 7 entered
+i:41     7       1 6 7
+i:42     1       1 6 7
+i:43     0       1 6 0          7 evicted, 0 entered
+i:44     1       1 6 0
+i:45     2       1 6 2          0 evicted, 2 entered
+i:46     1       1 6 2
+i:47     1       1 6 2
+i:48     1       1 6 2
+i:49     3       1 6 3          2 evicted, 3 entered
+i:50     5       1 6 5          3 evicted, 5 entered
+i:51     5       1 6 5
+i:52     4       1 6 4          5 evicted, 4 entered
+i:53     4       1 6 4
+i:54     7       1 6 7          4 evicted, 7 entered
+i:55     3       1 6 3          7 evicted, 3 entered
+i:56     1       1 6 3
+i:57     1       1 6 3
+i:58     0       1 6 0          3 evicted, 0 entered
+i:59     0       1 6 0
+i:60     0       1 6 0
+i:61     0       1 6 0
+i:62     1       1 6 0
+i:63     2       1 6 2          0 evicted, 2 entered
+i:64     4       1 6 4          2 evicted, 4 entered
+i:65     1       1 6 4
+i:66     5       1 6 5          4 evicted, 5 entered
+i:67     5       1 6 5
+i:68     5       1 6 5
+i:69     4       1 6 4          5 evicted, 4 entered
+i:70     2       1 6 2          4 evicted, 2 entered
+i:71     2       1 6 2
+i:72     6       1 6 2
+i:73     6       1 6 2
+i:74     6       1 6 2
+i:75     1       1 6 2
+i:76     7       1 6 7          2 evicted, 7 entered
+i:77     7       1 6 7
+i:78     7       1 6 7
+i:79     7       1 6 7
+i:80     6       1 6 7
+i:81     0       1 6 0          7 evicted, 0 entered
+i:82     0       1 6 0
+i:83     2       1 6 2          0 evicted, 2 entered
+i:84     1       1 6 2
+i:85     5       1 6 5          2 evicted, 5 entered
+i:86     5       1 6 5
+i:87     0       1 6 0          5 evicted, 0 entered
+i:88     6       1 6 0
+i:89     6       1 6 0
+i:90     5       1 6 5          0 evicted, 5 entered
+i:91     1       1 6 5
+i:92     1       1 6 5
+i:93     1       1 6 5
+i:94     1       1 6 5
+i:95     6       1 6 5
+i:96     1       1 6 5
+i:97     1       1 6 5
+i:98     1       1 6 5
+i:99     4       1 6 4          5 evicted, 4 entered
+Simulation #5 Statistics - Hit Ratio: 64% Page Swaps: 33
+
+Ending LFU Simulation
+******************************
+******************************
+Beginning MFU Simulation
+
+Simulation #1
+Index    Ref     Frames          Action
+i:0      1       1 -1 -1
+i:1      0       1 0 -1
+i:2      1       1 0 -1
+i:3      1       1 0 -1
+i:4      6       1 0 6
+i:5      1       1 0 6
+i:6      7       7 0 6          1 evicted, 7 entered
+i:7      6       7 0 6
+i:8      5       7 0 5          6 evicted, 5 entered
+i:9      4       4 0 5          7 evicted, 4 entered
+i:10     1       1 0 5          4 evicted, 1 entered
+i:11     1       1 0 5
+i:12     1       1 0 5
+i:13     1       1 0 5
+i:14     0       1 0 5
+i:15     0       1 0 5
+i:16     6       6 0 5          1 evicted, 6 entered
+i:17     2       6 2 5          0 evicted, 2 entered
+i:18     4       4 2 5          6 evicted, 4 entered
+i:19     4       4 2 5
+i:20     4       4 2 5
+i:21     3       3 2 5          4 evicted, 3 entered
+i:22     6       6 2 5          3 evicted, 6 entered
+i:23     4       4 2 5          6 evicted, 4 entered
+i:24     1       1 2 5          4 evicted, 1 entered
+i:25     4       4 2 5          1 evicted, 4 entered
+i:26     4       4 2 5
+i:27     4       4 2 5
+i:28     3       3 2 5          4 evicted, 3 entered
+i:29     1       1 2 5          3 evicted, 1 entered
+i:30     7       7 2 5          1 evicted, 7 entered
+i:31     3       3 2 5          7 evicted, 3 entered
+i:32     7       7 2 5          3 evicted, 7 entered
+i:33     7       7 2 5
+i:34     6       6 2 5          7 evicted, 6 entered
+i:35     6       6 2 5
+i:36     5       6 2 5
+i:37     6       6 2 5
+i:38     1       1 2 5          6 evicted, 1 entered
+i:39     2       1 2 5
+i:40     0       1 0 5          2 evicted, 0 entered
+i:41     4       1 0 4          5 evicted, 4 entered
+i:42     1       1 0 4
+i:43     5       5 0 4          1 evicted, 5 entered
+i:44     7       7 0 4          5 evicted, 7 entered
+i:45     3       3 0 4          7 evicted, 3 entered
+i:46     1       1 0 4          3 evicted, 1 entered
+i:47     1       1 0 4
+i:48     2       2 0 4          1 evicted, 2 entered
+i:49     2       2 0 4
+i:50     1       1 0 4          2 evicted, 1 entered
+i:51     1       1 0 4
+i:52     1       1 0 4
+i:53     7       7 0 4          1 evicted, 7 entered
+i:54     7       7 0 4
+i:55     6       6 0 4          7 evicted, 6 entered
+i:56     3       3 0 4          6 evicted, 3 entered
+i:57     2       2 0 4          3 evicted, 2 entered
+i:58     2       2 0 4
+i:59     3       3 0 4          2 evicted, 3 entered
+i:60     1       1 0 4          3 evicted, 1 entered
+i:61     1       1 0 4
+i:62     4       1 0 4
+i:63     4       1 0 4
+i:64     3       1 0 3          4 evicted, 3 entered
+i:65     1       1 0 3
+i:66     4       4 0 3          1 evicted, 4 entered
+i:67     4       4 0 3
+i:68     7       7 0 3          4 evicted, 7 entered
+i:69     7       7 0 3
+i:70     7       7 0 3
+i:71     7       7 0 3
+i:72     2       2 0 3          7 evicted, 2 entered
+i:73     7       7 0 3          2 evicted, 7 entered
+i:74     6       6 0 3          7 evicted, 6 entered
+i:75     7       7 0 3          6 evicted, 7 entered
+i:76     3       7 0 3
+i:77     3       7 0 3
+i:78     7       7 0 3
+i:79     4       7 0 4          3 evicted, 4 entered
+i:80     4       7 0 4
+i:81     4       7 0 4
+i:82     5       7 0 5          4 evicted, 5 entered
+i:83     4       4 0 5          7 evicted, 4 entered
+i:84     1       1 0 5          4 evicted, 1 entered
+i:85     5       1 0 5
+i:86     5       1 0 5
+i:87     4       1 0 4          5 evicted, 4 entered
+i:88     2       2 0 4          1 evicted, 2 entered
+i:89     2       2 0 4
+i:90     1       1 0 4          2 evicted, 1 entered
+i:91     6       6 0 4          1 evicted, 6 entered
+i:92     6       6 0 4
+i:93     6       6 0 4
+i:94     5       5 0 4          6 evicted, 5 entered
+i:95     0       5 0 4
+i:96     0       5 0 4
+i:97     0       5 0 4
+i:98     1       5 1 4          0 evicted, 1 entered
+i:99     4       5 1 4
+Simulation #1 Statistics - Hit Ratio: 47% Page Swaps: 50
+
+Simulation #2
+Index    Ref     Frames          Action
+i:0      7       7 -1 -1
+i:1      7       7 -1 -1
+i:2      1       7 1 -1
+i:3      4       7 1 4
+i:4      1       7 1 4
+i:5      4       7 1 4
+i:6      6       6 1 4          7 evicted, 6 entered
+i:7      5       6 5 4          1 evicted, 5 entered
+i:8      0       6 5 0          4 evicted, 0 entered
+i:9      0       6 5 0
+i:10     0       6 5 0
+i:11     6       6 5 0
+i:12     5       6 5 0
+i:13     4       6 5 4          0 evicted, 4 entered
+i:14     0       0 5 4          6 evicted, 0 entered
+i:15     1       0 1 4          5 evicted, 1 entered
+i:16     0       0 1 4
+i:17     0       0 1 4
+i:18     0       0 1 4
+i:19     1       0 1 4
+i:20     1       0 1 4
+i:21     1       0 1 4
+i:22     1       0 1 4
+i:23     7       0 7 4          1 evicted, 7 entered
+i:24     6       6 7 4          0 evicted, 6 entered
+i:25     1       1 7 4          6 evicted, 1 entered
+i:26     1       1 7 4
+i:27     1       1 7 4
+i:28     4       1 7 4
+i:29     0       0 7 4          1 evicted, 0 entered
+i:30     0       0 7 4
+i:31     5       5 7 4          0 evicted, 5 entered
+i:32     1       5 7 1          4 evicted, 1 entered
+i:33     3       3 7 1          5 evicted, 3 entered
+i:34     1       3 7 1
+i:35     3       3 7 1
+i:36     5       5 7 1          3 evicted, 5 entered
+i:37     6       5 7 6          1 evicted, 6 entered
+i:38     5       5 7 6
+i:39     0       0 7 6          5 evicted, 0 entered
+i:40     7       0 7 6
+i:41     7       0 7 6
+i:42     0       0 7 6
+i:43     0       0 7 6
+i:44     0       0 7 6
+i:45     0       0 7 6
+i:46     3       3 7 6          0 evicted, 3 entered
+i:47     0       3 0 6          7 evicted, 0 entered
+i:48     1       1 0 6          3 evicted, 1 entered
+i:49     1       1 0 6
+i:50     1       1 0 6
+i:51     2       2 0 6          1 evicted, 2 entered
+i:52     7       7 0 6          2 evicted, 7 entered
+i:53     6       7 0 6
+i:54     1       7 0 1          6 evicted, 1 entered
+i:55     0       7 0 1
+i:56     6       7 6 1          0 evicted, 6 entered
+i:57     5       5 6 1          7 evicted, 5 entered
+i:58     1       5 6 1
+i:59     1       5 6 1
+i:60     3       5 6 3          1 evicted, 3 entered
+i:61     2       2 6 3          5 evicted, 2 entered
+i:62     1       1 6 3          2 evicted, 1 entered
+i:63     0       0 6 3          1 evicted, 0 entered
+i:64     3       0 6 3
+i:65     3       0 6 3
+i:66     1       0 6 1          3 evicted, 1 entered
+i:67     3       3 6 1          0 evicted, 3 entered
+i:68     2       2 6 1          3 evicted, 2 entered
+i:69     0       0 6 1          2 evicted, 0 entered
+i:70     0       0 6 1
+i:71     0       0 6 1
+i:72     0       0 6 1
+i:73     7       7 6 1          0 evicted, 7 entered
+i:74     7       7 6 1
+i:75     7       7 6 1
+i:76     6       7 6 1
+i:77     6       7 6 1
+i:78     7       7 6 1
+i:79     7       7 6 1
+i:80     7       7 6 1
+i:81     6       7 6 1
+i:82     7       7 6 1
+i:83     7       7 6 1
+i:84     7       7 6 1
+i:85     1       7 6 1
+i:86     3       3 6 1          7 evicted, 3 entered
+i:87     1       3 6 1
+i:88     4       3 4 1          6 evicted, 4 entered
+i:89     1       3 4 1
+i:90     5       3 4 5          1 evicted, 5 entered
+i:91     1       1 4 5          3 evicted, 1 entered
+i:92     1       1 4 5
+i:93     7       7 4 5          1 evicted, 7 entered
+i:94     6       6 4 5          7 evicted, 6 entered
+i:95     5       6 4 5
+i:96     5       6 4 5
+i:97     5       6 4 5
+i:98     5       6 4 5
+i:99     5       6 4 5
+Simulation #2 Statistics - Hit Ratio: 58% Page Swaps: 39
+
+Simulation #3
+Index    Ref     Frames          Action
+i:0      3       3 -1 -1
+i:1      1       3 1 -1
+i:2      4       3 1 4
+i:3      4       3 1 4
+i:4      4       3 1 4
+i:5      1       3 1 4
+i:6      3       3 1 4
+i:7      3       3 1 4
+i:8      2       2 1 4          3 evicted, 2 entered
+i:9      1       2 1 4
+i:10     3       2 3 4          1 evicted, 3 entered
+i:11     2       2 3 4
+i:12     2       2 3 4
+i:13     2       2 3 4
+i:14     4       2 3 4
+i:15     3       2 3 4
+i:16     3       2 3 4
+i:17     1       1 3 4          2 evicted, 1 entered
+i:18     4       1 3 4
+i:19     6       1 3 6          4 evicted, 6 entered
+i:20     5       1 5 6          3 evicted, 5 entered
+i:21     5       1 5 6
+i:22     5       1 5 6
+i:23     5       1 5 6
+i:24     5       1 5 6
+i:25     5       1 5 6
+i:26     4       1 4 6          5 evicted, 4 entered
+i:27     4       1 4 6
+i:28     1       1 4 6
+i:29     5       5 4 6          1 evicted, 5 entered
+i:30     5       5 4 6
+i:31     5       5 4 6
+i:32     1       1 4 6          5 evicted, 1 entered
+i:33     0       1 0 6          4 evicted, 0 entered
+i:34     5       5 0 6          1 evicted, 5 entered
+i:35     1       1 0 6          5 evicted, 1 entered
+i:36     1       1 0 6
+i:37     5       5 0 6          1 evicted, 5 entered
+i:38     5       5 0 6
+i:39     5       5 0 6
+i:40     5       5 0 6
+i:41     5       5 0 6
+i:42     1       1 0 6          5 evicted, 1 entered
+i:43     1       1 0 6
+i:44     5       5 0 6          1 evicted, 5 entered
+i:45     1       1 0 6          5 evicted, 1 entered
+i:46     4       4 0 6          1 evicted, 4 entered
+i:47     3       3 0 6          4 evicted, 3 entered
+i:48     5       5 0 6          3 evicted, 5 entered
+i:49     5       5 0 6
+i:50     1       1 0 6          5 evicted, 1 entered
+i:51     0       1 0 6
+i:52     1       1 0 6
+i:53     0       1 0 6
+i:54     6       1 0 6
+i:55     6       1 0 6
+i:56     4       1 4 6          0 evicted, 4 entered
+i:57     6       1 4 6
+i:58     5       1 4 5          6 evicted, 5 entered
+i:59     5       1 4 5
+i:60     2       2 4 5          1 evicted, 2 entered
+i:61     2       2 4 5
+i:62     2       2 4 5
+i:63     1       1 4 5          2 evicted, 1 entered
+i:64     0       1 4 0          5 evicted, 0 entered
+i:65     0       1 4 0
+i:66     0       1 4 0
+i:67     0       1 4 0
+i:68     2       1 4 2          0 evicted, 2 entered
+i:69     2       1 4 2
+i:70     2       1 4 2
+i:71     7       1 4 7          2 evicted, 7 entered
+i:72     7       1 4 7
+i:73     5       1 4 5          7 evicted, 5 entered
+i:74     5       1 4 5
+i:75     1       1 4 5
+i:76     5       1 4 5
+i:77     1       1 4 5
+i:78     1       1 4 5
+i:79     1       1 4 5
+i:80     6       6 4 5          1 evicted, 6 entered
+i:81     0       6 4 0          5 evicted, 0 entered
+i:82     0       6 4 0
+i:83     1       6 4 1          0 evicted, 1 entered
+i:84     0       0 4 1          6 evicted, 0 entered
+i:85     0       0 4 1
+i:86     3       3 4 1          0 evicted, 3 entered
+i:87     7       7 4 1          3 evicted, 7 entered
+i:88     6       6 4 1          7 evicted, 6 entered
+i:89     5       5 4 1          6 evicted, 5 entered
+i:90     4       5 4 1
+i:91     3       5 3 1          4 evicted, 3 entered
+i:92     1       5 3 1
+i:93     1       5 3 1
+i:94     5       5 3 1
+i:95     7       5 3 7          1 evicted, 7 entered
+i:96     2       2 3 7          5 evicted, 2 entered
+i:97     2       2 3 7
+i:98     7       2 3 7
+i:99     2       2 3 7
+Simulation #3 Statistics - Hit Ratio: 59% Page Swaps: 38
+
+Simulation #4
+Index    Ref     Frames          Action
+i:0      0       0 -1 -1
+i:1      4       0 4 -1
+i:2      3       0 4 3
+i:3      1       1 4 3          0 evicted, 1 entered
+i:4      4       1 4 3
+i:5      1       1 4 3
+i:6      5       5 4 3          1 evicted, 5 entered
+i:7      1       5 1 3          4 evicted, 1 entered
+i:8      2       2 1 3          5 evicted, 2 entered
+i:9      1       2 1 3
+i:10     1       2 1 3
+i:11     1       2 1 3
+i:12     0       2 0 3          1 evicted, 0 entered
+i:13     0       2 0 3
+i:14     0       2 0 3
+i:15     0       2 0 3
+i:16     0       2 0 3
+i:17     0       2 0 3
+i:18     1       2 1 3          0 evicted, 1 entered
+i:19     0       0 1 3          2 evicted, 0 entered
+i:20     4       4 1 3          0 evicted, 4 entered
+i:21     1       4 1 3
+i:22     3       4 1 3
+i:23     1       4 1 3
+i:24     4       4 1 3
+i:25     4       4 1 3
+i:26     3       4 1 3
+i:27     2       2 1 3          4 evicted, 2 entered
+i:28     3       2 1 3
+i:29     2       2 1 3
+i:30     1       2 1 3
+i:31     1       2 1 3
+i:32     1       2 1 3
+i:33     2       2 1 3
+i:34     1       2 1 3
+i:35     1       2 1 3
+i:36     3       2 1 3
+i:37     1       2 1 3
+i:38     4       2 4 3          1 evicted, 4 entered
+i:39     5       2 4 5          3 evicted, 5 entered
+i:40     7       7 4 5          2 evicted, 7 entered
+i:41     7       7 4 5
+i:42     2       2 4 5          7 evicted, 2 entered
+i:43     0       0 4 5          2 evicted, 0 entered
+i:44     3       3 4 5          0 evicted, 3 entered
+i:45     7       7 4 5          3 evicted, 7 entered
+i:46     3       3 4 5          7 evicted, 3 entered
+i:47     1       1 4 5          3 evicted, 1 entered
+i:48     1       1 4 5
+i:49     0       0 4 5          1 evicted, 0 entered
+i:50     0       0 4 5
+i:51     1       1 4 5          0 evicted, 1 entered
+i:52     1       1 4 5
+i:53     5       1 4 5
+i:54     5       1 4 5
+i:55     1       1 4 5
+i:56     0       0 4 5          1 evicted, 0 entered
+i:57     6       0 4 6          5 evicted, 6 entered
+i:58     5       5 4 6          0 evicted, 5 entered
+i:59     1       1 4 6          5 evicted, 1 entered
+i:60     7       7 4 6          1 evicted, 7 entered
+i:61     6       7 4 6
+i:62     7       7 4 6
+i:63     6       7 4 6
+i:64     1       7 4 1          6 evicted, 1 entered
+i:65     7       7 4 1
+i:66     2       2 4 1          7 evicted, 2 entered
+i:67     1       2 4 1
+i:68     1       2 4 1
+i:69     1       2 4 1
+i:70     0       2 4 0          1 evicted, 0 entered
+i:71     0       2 4 0
+i:72     0       2 4 0
+i:73     0       2 4 0
+i:74     5       2 4 5          0 evicted, 5 entered
+i:75     3       3 4 5          2 evicted, 3 entered
+i:76     3       3 4 5
+i:77     3       3 4 5
+i:78     1       1 4 5          3 evicted, 1 entered
+i:79     1       1 4 5
+i:80     5       1 4 5
+i:81     5       1 4 5
+i:82     2       1 4 2          5 evicted, 2 entered
+i:83     7       7 4 2          1 evicted, 7 entered
+i:84     7       7 4 2
+i:85     2       7 4 2
+i:86     1       1 4 2          7 evicted, 1 entered
+i:87     0       1 4 0          2 evicted, 0 entered
+i:88     3       3 4 0          1 evicted, 3 entered
+i:89     3       3 4 0
+i:90     3       3 4 0
+i:91     3       3 4 0
+i:92     2       2 4 0          3 evicted, 2 entered
+i:93     2       2 4 0
+i:94     3       3 4 0          2 evicted, 3 entered
+i:95     1       1 4 0          3 evicted, 1 entered
+i:96     6       6 4 0          1 evicted, 6 entered
+i:97     0       6 4 0
+i:98     1       6 4 1          0 evicted, 1 entered
+i:99     1       6 4 1
+Simulation #4 Statistics - Hit Ratio: 56% Page Swaps: 41
+
+Simulation #5
+Index    Ref     Frames          Action
+i:0      1       1 -1 -1
+i:1      0       1 0 -1
+i:2      1       1 0 -1
+i:3      7       1 0 7
+i:4      1       1 0 7
+i:5      6       6 0 7          1 evicted, 6 entered
+i:6      6       6 0 7
+i:7      5       5 0 7          6 evicted, 5 entered
+i:8      4       4 0 7          5 evicted, 4 entered
+i:9      1       1 0 7          4 evicted, 1 entered
+i:10     5       5 0 7          1 evicted, 5 entered
+i:11     6       6 0 7          5 evicted, 6 entered
+i:12     4       4 0 7          6 evicted, 4 entered
+i:13     4       4 0 7
+i:14     1       1 0 7          4 evicted, 1 entered
+i:15     1       1 0 7
+i:16     6       6 0 7          1 evicted, 6 entered
+i:17     5       5 0 7          6 evicted, 5 entered
+i:18     5       5 0 7
+i:19     4       4 0 7          5 evicted, 4 entered
+i:20     3       3 0 7          4 evicted, 3 entered
+i:21     1       1 0 7          3 evicted, 1 entered
+i:22     0       1 0 7
+i:23     1       1 0 7
+i:24     1       1 0 7
+i:25     1       1 0 7
+i:26     7       1 0 7
+i:27     6       6 0 7          1 evicted, 6 entered
+i:28     1       6 1 7          0 evicted, 1 entered
+i:29     1       6 1 7
+i:30     1       6 1 7
+i:31     1       6 1 7
+i:32     7       6 1 7
+i:33     0       6 0 7          1 evicted, 0 entered
+i:34     0       6 0 7
+i:35     0       6 0 7
+i:36     0       6 0 7
+i:37     1       6 1 7          0 evicted, 1 entered
+i:38     1       6 1 7
+i:39     4       6 1 4          7 evicted, 4 entered
+i:40     7       6 7 4          1 evicted, 7 entered
+i:41     7       6 7 4
+i:42     1       6 1 4          7 evicted, 1 entered
+i:43     0       0 1 4          6 evicted, 0 entered
+i:44     1       0 1 4
+i:45     2       0 2 4          1 evicted, 2 entered
+i:46     1       1 2 4          0 evicted, 1 entered
+i:47     1       1 2 4
+i:48     1       1 2 4
+i:49     3       3 2 4          1 evicted, 3 entered
+i:50     5       5 2 4          3 evicted, 5 entered
+i:51     5       5 2 4
+i:52     4       5 2 4
+i:53     4       5 2 4
+i:54     7       5 2 7          4 evicted, 7 entered
+i:55     3       3 2 7          5 evicted, 3 entered
+i:56     1       1 2 7          3 evicted, 1 entered
+i:57     1       1 2 7
+i:58     0       0 2 7          1 evicted, 0 entered
+i:59     0       0 2 7
+i:60     0       0 2 7
+i:61     0       0 2 7
+i:62     1       1 2 7          0 evicted, 1 entered
+i:63     2       1 2 7
+i:64     4       1 4 7          2 evicted, 4 entered
+i:65     1       1 4 7
+i:66     5       5 4 7          1 evicted, 5 entered
+i:67     5       5 4 7
+i:68     5       5 4 7
+i:69     4       5 4 7
+i:70     2       2 4 7          5 evicted, 2 entered
+i:71     2       2 4 7
+i:72     6       6 4 7          2 evicted, 6 entered
+i:73     6       6 4 7
+i:74     6       6 4 7
+i:75     1       1 4 7          6 evicted, 1 entered
+i:76     7       1 4 7
+i:77     7       1 4 7
+i:78     7       1 4 7
+i:79     7       1 4 7
+i:80     6       1 4 6          7 evicted, 6 entered
+i:81     0       1 0 6          4 evicted, 0 entered
+i:82     0       1 0 6
+i:83     2       1 2 6          0 evicted, 2 entered
+i:84     1       1 2 6
+i:85     5       5 2 6          1 evicted, 5 entered
+i:86     5       5 2 6
+i:87     0       0 2 6          5 evicted, 0 entered
+i:88     6       0 2 6
+i:89     6       0 2 6
+i:90     5       0 2 5          6 evicted, 5 entered
+i:91     1       1 2 5          0 evicted, 1 entered
+i:92     1       1 2 5
+i:93     1       1 2 5
+i:94     1       1 2 5
+i:95     6       6 2 5          1 evicted, 6 entered
+i:96     1       1 2 5          6 evicted, 1 entered
+i:97     1       1 2 5
+i:98     1       1 2 5
+i:99     4       4 2 5          1 evicted, 4 entered
+Simulation #5 Statistics - Hit Ratio: 52% Page Swaps: 45
+
+Ending MFU Simulation
+******************************
+******************************
+Beginning Random Pick Simulation
+
+Simulation #1
+Index    Ref     Frames          Action
+i:0      1       1 -1 -1
+i:1      0       1 0 -1
+i:2      1       1 0 -1
+i:3      1       1 0 -1
+i:4      6       1 0 6
+i:5      1       1 0 6
+i:6      7       1 7 6          0 evicted, 7 entered
+i:7      6       1 7 6
+i:8      5       1 5 6          7 evicted, 5 entered
+i:9      4       1 5 4          6 evicted, 4 entered
+i:10     1       1 5 4
+i:11     1       1 5 4
+i:12     1       1 5 4
+i:13     1       1 5 4
+i:14     0       0 5 4          1 evicted, 0 entered
+i:15     0       0 5 4
+i:16     6       0 6 4          5 evicted, 6 entered
+i:17     2       0 2 4          6 evicted, 2 entered
+i:18     4       0 2 4
+i:19     4       0 2 4
+i:20     4       0 2 4
+i:21     3       0 3 4          2 evicted, 3 entered
+i:22     6       0 6 4          3 evicted, 6 entered
+i:23     4       0 6 4
+i:24     1       1 6 4          0 evicted, 1 entered
+i:25     4       1 6 4
+i:26     4       1 6 4
+i:27     4       1 6 4
+i:28     3       3 6 4          1 evicted, 3 entered
+i:29     1       1 6 4          3 evicted, 1 entered
+i:30     7       1 6 7          4 evicted, 7 entered
+i:31     3       1 3 7          6 evicted, 3 entered
+i:32     7       1 3 7
+i:33     7       1 3 7
+i:34     6       6 3 7          1 evicted, 6 entered
+i:35     6       6 3 7
+i:36     5       6 3 5          7 evicted, 5 entered
+i:37     6       6 3 5
+i:38     1       6 1 5          3 evicted, 1 entered
+i:39     2       6 2 5          1 evicted, 2 entered
+i:40     0       6 2 0          5 evicted, 0 entered
+i:41     4       4 2 0          6 evicted, 4 entered
+i:42     1       1 2 0          4 evicted, 1 entered
+i:43     5       1 2 5          0 evicted, 5 entered
+i:44     7       1 7 5          2 evicted, 7 entered
+i:45     3       1 3 5          7 evicted, 3 entered
+i:46     1       1 3 5
+i:47     1       1 3 5
+i:48     2       1 2 5          3 evicted, 2 entered
+i:49     2       1 2 5
+i:50     1       1 2 5
+i:51     1       1 2 5
+i:52     1       1 2 5
+i:53     7       1 7 5          2 evicted, 7 entered
+i:54     7       1 7 5
+i:55     6       1 7 6          5 evicted, 6 entered
+i:56     3       3 7 6          1 evicted, 3 entered
+i:57     2       3 2 6          7 evicted, 2 entered
+i:58     2       3 2 6
+i:59     3       3 2 6
+i:60     1       3 2 1          6 evicted, 1 entered
+i:61     1       3 2 1
+i:62     4       3 4 1          2 evicted, 4 entered
+i:63     4       3 4 1
+i:64     3       3 4 1
+i:65     1       3 4 1
+i:66     4       3 4 1
+i:67     4       3 4 1
+i:68     7       3 7 1          4 evicted, 7 entered
+i:69     7       3 7 1
+i:70     7       3 7 1
+i:71     7       3 7 1
+i:72     2       3 2 1          7 evicted, 2 entered
+i:73     7       7 2 1          3 evicted, 7 entered
+i:74     6       6 2 1          7 evicted, 6 entered
+i:75     7       6 2 7          1 evicted, 7 entered
+i:76     3       6 2 3          7 evicted, 3 entered
+i:77     3       6 2 3
+i:78     7       6 2 7          3 evicted, 7 entered
+i:79     4       6 2 4          7 evicted, 4 entered
+i:80     4       6 2 4
+i:81     4       6 2 4
+i:82     5       6 5 4          2 evicted, 5 entered
+i:83     4       6 5 4
+i:84     1       1 5 4          6 evicted, 1 entered
+i:85     5       1 5 4
+i:86     5       1 5 4
+i:87     4       1 5 4
+i:88     2       2 5 4          1 evicted, 2 entered
+i:89     2       2 5 4
+i:90     1       2 1 4          5 evicted, 1 entered
+i:91     6       6 1 4          2 evicted, 6 entered
+i:92     6       6 1 4
+i:93     6       6 1 4
+i:94     5       6 5 4          1 evicted, 5 entered
+i:95     0       6 5 0          4 evicted, 0 entered
+i:96     0       6 5 0
+i:97     0       6 5 0
+i:98     1       1 5 0          6 evicted, 1 entered
+i:99     4       1 4 0          5 evicted, 4 entered
+Simulation #1 Statistics - Hit Ratio: 50% Page Swaps: 47
+
+Simulation #2
+Index    Ref     Frames          Action
+i:0      7       7 -1 -1
+i:1      7       7 -1 -1
+i:2      1       7 1 -1
+i:3      4       7 1 4
+i:4      1       7 1 4
+i:5      4       7 1 4
+i:6      6       6 1 4          7 evicted, 6 entered
+i:7      5       6 1 5          4 evicted, 5 entered
+i:8      0       6 0 5          1 evicted, 0 entered
+i:9      0       6 0 5
+i:10     0       6 0 5
+i:11     6       6 0 5
+i:12     5       6 0 5
+i:13     4       6 0 4          5 evicted, 4 entered
+i:14     0       6 0 4
+i:15     1       6 0 1          4 evicted, 1 entered
+i:16     0       6 0 1
+i:17     0       6 0 1
+i:18     0       6 0 1
+i:19     1       6 0 1
+i:20     1       6 0 1
+i:21     1       6 0 1
+i:22     1       6 0 1
+i:23     7       6 0 7          1 evicted, 7 entered
+i:24     6       6 0 7
+i:25     1       6 1 7          0 evicted, 1 entered
+i:26     1       6 1 7
+i:27     1       6 1 7
+i:28     4       4 1 7          6 evicted, 4 entered
+i:29     0       4 1 0          7 evicted, 0 entered
+i:30     0       4 1 0
+i:31     5       5 1 0          4 evicted, 5 entered
+i:32     1       5 1 0
+i:33     3       3 1 0          5 evicted, 3 entered
+i:34     1       3 1 0
+i:35     3       3 1 0
+i:36     5       5 1 0          3 evicted, 5 entered
+i:37     6       5 6 0          1 evicted, 6 entered
+i:38     5       5 6 0
+i:39     0       5 6 0
+i:40     7       7 6 0          5 evicted, 7 entered
+i:41     7       7 6 0
+i:42     0       7 6 0
+i:43     0       7 6 0
+i:44     0       7 6 0
+i:45     0       7 6 0
+i:46     3       7 6 3          0 evicted, 3 entered
+i:47     0       0 6 3          7 evicted, 0 entered
+i:48     1       1 6 3          0 evicted, 1 entered
+i:49     1       1 6 3
+i:50     1       1 6 3
+i:51     2       1 2 3          6 evicted, 2 entered
+i:52     7       1 2 7          3 evicted, 7 entered
+i:53     6       1 6 7          2 evicted, 6 entered
+i:54     1       1 6 7
+i:55     0       1 0 7          6 evicted, 0 entered
+i:56     6       1 0 6          7 evicted, 6 entered
+i:57     5       1 0 5          6 evicted, 5 entered
+i:58     1       1 0 5
+i:59     1       1 0 5
+i:60     3       1 3 5          0 evicted, 3 entered
+i:61     2       2 3 5          1 evicted, 2 entered
+i:62     1       2 1 5          3 evicted, 1 entered
+i:63     0       0 1 5          2 evicted, 0 entered
+i:64     3       0 1 3          5 evicted, 3 entered
+i:65     3       0 1 3
+i:66     1       0 1 3
+i:67     3       0 1 3
+i:68     2       2 1 3          0 evicted, 2 entered
+i:69     0       0 1 3          2 evicted, 0 entered
+i:70     0       0 1 3
+i:71     0       0 1 3
+i:72     0       0 1 3
+i:73     7       7 1 3          0 evicted, 7 entered
+i:74     7       7 1 3
+i:75     7       7 1 3
+i:76     6       7 6 3          1 evicted, 6 entered
+i:77     6       7 6 3
+i:78     7       7 6 3
+i:79     7       7 6 3
+i:80     7       7 6 3
+i:81     6       7 6 3
+i:82     7       7 6 3
+i:83     7       7 6 3
+i:84     7       7 6 3
+i:85     1       7 1 3          6 evicted, 1 entered
+i:86     3       7 1 3
+i:87     1       7 1 3
+i:88     4       7 1 4          3 evicted, 4 entered
+i:89     1       7 1 4
+i:90     5       7 5 4          1 evicted, 5 entered
+i:91     1       1 5 4          7 evicted, 1 entered
+i:92     1       1 5 4
+i:93     7       1 5 7          4 evicted, 7 entered
+i:94     6       6 5 7          1 evicted, 6 entered
+i:95     5       6 5 7
+i:96     5       6 5 7
+i:97     5       6 5 7
+i:98     5       6 5 7
+i:99     5       6 5 7
+Simulation #2 Statistics - Hit Ratio: 59% Page Swaps: 38
+
+Simulation #3
+Index    Ref     Frames          Action
+i:0      3       3 -1 -1
+i:1      1       3 1 -1
+i:2      4       3 1 4
+i:3      4       3 1 4
+i:4      4       3 1 4
+i:5      1       3 1 4
+i:6      3       3 1 4
+i:7      3       3 1 4
+i:8      2       3 1 2          4 evicted, 2 entered
+i:9      1       3 1 2
+i:10     3       3 1 2
+i:11     2       3 1 2
+i:12     2       3 1 2
+i:13     2       3 1 2
+i:14     4       3 1 4          2 evicted, 4 entered
+i:15     3       3 1 4
+i:16     3       3 1 4
+i:17     1       3 1 4
+i:18     4       3 1 4
+i:19     6       3 6 4          1 evicted, 6 entered
+i:20     5       5 6 4          3 evicted, 5 entered
+i:21     5       5 6 4
+i:22     5       5 6 4
+i:23     5       5 6 4
+i:24     5       5 6 4
+i:25     5       5 6 4
+i:26     4       5 6 4
+i:27     4       5 6 4
+i:28     1       5 6 1          4 evicted, 1 entered
+i:29     5       5 6 1
+i:30     5       5 6 1
+i:31     5       5 6 1
+i:32     1       5 6 1
+i:33     0       5 6 0          1 evicted, 0 entered
+i:34     5       5 6 0
+i:35     1       1 6 0          5 evicted, 1 entered
+i:36     1       1 6 0
+i:37     5       1 6 5          0 evicted, 5 entered
+i:38     5       1 6 5
+i:39     5       1 6 5
+i:40     5       1 6 5
+i:41     5       1 6 5
+i:42     1       1 6 5
+i:43     1       1 6 5
+i:44     5       1 6 5
+i:45     1       1 6 5
+i:46     4       1 6 4          5 evicted, 4 entered
+i:47     3       1 6 3          4 evicted, 3 entered
+i:48     5       5 6 3          1 evicted, 5 entered
+i:49     5       5 6 3
+i:50     1       1 6 3          5 evicted, 1 entered
+i:51     0       0 6 3          1 evicted, 0 entered
+i:52     1       0 6 1          3 evicted, 1 entered
+i:53     0       0 6 1
+i:54     6       0 6 1
+i:55     6       0 6 1
+i:56     4       4 6 1          0 evicted, 4 entered
+i:57     6       4 6 1
+i:58     5       5 6 1          4 evicted, 5 entered
+i:59     5       5 6 1
+i:60     2       5 6 2          1 evicted, 2 entered
+i:61     2       5 6 2
+i:62     2       5 6 2
+i:63     1       5 1 2          6 evicted, 1 entered
+i:64     0       5 0 2          1 evicted, 0 entered
+i:65     0       5 0 2
+i:66     0       5 0 2
+i:67     0       5 0 2
+i:68     2       5 0 2
+i:69     2       5 0 2
+i:70     2       5 0 2
+i:71     7       5 0 7          2 evicted, 7 entered
+i:72     7       5 0 7
+i:73     5       5 0 7
+i:74     5       5 0 7
+i:75     1       5 1 7          0 evicted, 1 entered
+i:76     5       5 1 7
+i:77     1       5 1 7
+i:78     1       5 1 7
+i:79     1       5 1 7
+i:80     6       5 1 6          7 evicted, 6 entered
+i:81     0       5 1 0          6 evicted, 0 entered
+i:82     0       5 1 0
+i:83     1       5 1 0
+i:84     0       5 1 0
+i:85     0       5 1 0
+i:86     3       5 1 3          0 evicted, 3 entered
+i:87     7       5 7 3          1 evicted, 7 entered
+i:88     6       5 6 3          7 evicted, 6 entered
+i:89     5       5 6 3
+i:90     4       5 6 4          3 evicted, 4 entered
+i:91     3       5 3 4          6 evicted, 3 entered
+i:92     1       1 3 4          5 evicted, 1 entered
+i:93     1       1 3 4
+i:94     5       1 3 5          4 evicted, 5 entered
+i:95     7       1 7 5          3 evicted, 7 entered
+i:96     2       1 7 2          5 evicted, 2 entered
+i:97     2       1 7 2
+i:98     7       1 7 2
+i:99     2       1 7 2
+Simulation #3 Statistics - Hit Ratio: 65% Page Swaps: 32
+
+Simulation #4
+Index    Ref     Frames          Action
+i:0      0       0 -1 -1
+i:1      4       0 4 -1
+i:2      3       0 4 3
+i:3      1       0 1 3          4 evicted, 1 entered
+i:4      4       4 1 3          0 evicted, 4 entered
+i:5      1       4 1 3
+i:6      5       4 1 5          3 evicted, 5 entered
+i:7      1       4 1 5
+i:8      2       4 2 5          1 evicted, 2 entered
+i:9      1       4 1 5          2 evicted, 1 entered
+i:10     1       4 1 5
+i:11     1       4 1 5
+i:12     0       4 0 5          1 evicted, 0 entered
+i:13     0       4 0 5
+i:14     0       4 0 5
+i:15     0       4 0 5
+i:16     0       4 0 5
+i:17     0       4 0 5
+i:18     1       1 0 5          4 evicted, 1 entered
+i:19     0       1 0 5
+i:20     4       1 4 5          0 evicted, 4 entered
+i:21     1       1 4 5
+i:22     3       1 3 5          4 evicted, 3 entered
+i:23     1       1 3 5
+i:24     4       1 4 5          3 evicted, 4 entered
+i:25     4       1 4 5
+i:26     3       1 4 3          5 evicted, 3 entered
+i:27     2       1 2 3          4 evicted, 2 entered
+i:28     3       1 2 3
+i:29     2       1 2 3
+i:30     1       1 2 3
+i:31     1       1 2 3
+i:32     1       1 2 3
+i:33     2       1 2 3
+i:34     1       1 2 3
+i:35     1       1 2 3
+i:36     3       1 2 3
+i:37     1       1 2 3
+i:38     4       1 4 3          2 evicted, 4 entered
+i:39     5       5 4 3          1 evicted, 5 entered
+i:40     7       5 7 3          4 evicted, 7 entered
+i:41     7       5 7 3
+i:42     2       2 7 3          5 evicted, 2 entered
+i:43     0       2 0 3          7 evicted, 0 entered
+i:44     3       2 0 3
+i:45     7       7 0 3          2 evicted, 7 entered
+i:46     3       7 0 3
+i:47     1       1 0 3          7 evicted, 1 entered
+i:48     1       1 0 3
+i:49     0       1 0 3
+i:50     0       1 0 3
+i:51     1       1 0 3
+i:52     1       1 0 3
+i:53     5       5 0 3          1 evicted, 5 entered
+i:54     5       5 0 3
+i:55     1       5 0 1          3 evicted, 1 entered
+i:56     0       5 0 1
+i:57     6       6 0 1          5 evicted, 6 entered
+i:58     5       5 0 1          6 evicted, 5 entered
+i:59     1       5 0 1
+i:60     7       5 7 1          0 evicted, 7 entered
+i:61     6       5 7 6          1 evicted, 6 entered
+i:62     7       5 7 6
+i:63     6       5 7 6
+i:64     1       1 7 6          5 evicted, 1 entered
+i:65     7       1 7 6
+i:66     2       1 7 2          6 evicted, 2 entered
+i:67     1       1 7 2
+i:68     1       1 7 2
+i:69     1       1 7 2
+i:70     0       1 7 0          2 evicted, 0 entered
+i:71     0       1 7 0
+i:72     0       1 7 0
+i:73     0       1 7 0
+i:74     5       1 7 5          0 evicted, 5 entered
+i:75     3       3 7 5          1 evicted, 3 entered
+i:76     3       3 7 5
+i:77     3       3 7 5
+i:78     1       3 7 1          5 evicted, 1 entered
+i:79     1       3 7 1
+i:80     5       3 5 1          7 evicted, 5 entered
+i:81     5       3 5 1
+i:82     2       3 5 2          1 evicted, 2 entered
+i:83     7       3 7 2          5 evicted, 7 entered
+i:84     7       3 7 2
+i:85     2       3 7 2
+i:86     1       3 7 1          2 evicted, 1 entered
+i:87     0       0 7 1          3 evicted, 0 entered
+i:88     3       3 7 1          0 evicted, 3 entered
+i:89     3       3 7 1
+i:90     3       3 7 1
+i:91     3       3 7 1
+i:92     2       3 2 1          7 evicted, 2 entered
+i:93     2       3 2 1
+i:94     3       3 2 1
+i:95     1       3 2 1
+i:96     6       3 2 6          1 evicted, 6 entered
+i:97     0       3 0 6          2 evicted, 0 entered
+i:98     1       3 0 1          6 evicted, 1 entered
+i:99     1       3 0 1
+Simulation #4 Statistics - Hit Ratio: 56% Page Swaps: 41
+
+Simulation #5
+Index    Ref     Frames          Action
+i:0      1       1 -1 -1
+i:1      0       1 0 -1
+i:2      1       1 0 -1
+i:3      7       1 0 7
+i:4      1       1 0 7
+i:5      6       1 0 6          7 evicted, 6 entered
+i:6      6       1 0 6
+i:7      5       5 0 6          1 evicted, 5 entered
+i:8      4       5 4 6          0 evicted, 4 entered
+i:9      1       5 4 1          6 evicted, 1 entered
+i:10     5       5 4 1
+i:11     6       5 6 1          4 evicted, 6 entered
+i:12     4       5 6 4          1 evicted, 4 entered
+i:13     4       5 6 4
+i:14     1       5 1 4          6 evicted, 1 entered
+i:15     1       5 1 4
+i:16     6       5 1 6          4 evicted, 6 entered
+i:17     5       5 1 6
+i:18     5       5 1 6
+i:19     4       4 1 6          5 evicted, 4 entered
+i:20     3       4 1 3          6 evicted, 3 entered
+i:21     1       4 1 3
+i:22     0       4 0 3          1 evicted, 0 entered
+i:23     1       4 1 3          0 evicted, 1 entered
+i:24     1       4 1 3
+i:25     1       4 1 3
+i:26     7       7 1 3          4 evicted, 7 entered
+i:27     6       6 1 3          7 evicted, 6 entered
+i:28     1       6 1 3
+i:29     1       6 1 3
+i:30     1       6 1 3
+i:31     1       6 1 3
+i:32     7       7 1 3          6 evicted, 7 entered
+i:33     0       0 1 3          7 evicted, 0 entered
+i:34     0       0 1 3
+i:35     0       0 1 3
+i:36     0       0 1 3
+i:37     1       0 1 3
+i:38     1       0 1 3
+i:39     4       4 1 3          0 evicted, 4 entered
+i:40     7       7 1 3          4 evicted, 7 entered
+i:41     7       7 1 3
+i:42     1       7 1 3
+i:43     0       0 1 3          7 evicted, 0 entered
+i:44     1       0 1 3
+i:45     2       0 2 3          1 evicted, 2 entered
+i:46     1       0 2 1          3 evicted, 1 entered
+i:47     1       0 2 1
+i:48     1       0 2 1
+i:49     3       0 3 1          2 evicted, 3 entered
+i:50     5       0 5 1          3 evicted, 5 entered
+i:51     5       0 5 1
+i:52     4       0 4 1          5 evicted, 4 entered
+i:53     4       0 4 1
+i:54     7       7 4 1          0 evicted, 7 entered
+i:55     3       7 4 3          1 evicted, 3 entered
+i:56     1       1 4 3          7 evicted, 1 entered
+i:57     1       1 4 3
+i:58     0       1 0 3          4 evicted, 0 entered
+i:59     0       1 0 3
+i:60     0       1 0 3
+i:61     0       1 0 3
+i:62     1       1 0 3
+i:63     2       1 2 3          0 evicted, 2 entered
+i:64     4       1 4 3          2 evicted, 4 entered
+i:65     1       1 4 3
+i:66     5       1 4 5          3 evicted, 5 entered
+i:67     5       1 4 5
+i:68     5       1 4 5
+i:69     4       1 4 5
+i:70     2       2 4 5          1 evicted, 2 entered
+i:71     2       2 4 5
+i:72     6       2 4 6          5 evicted, 6 entered
+i:73     6       2 4 6
+i:74     6       2 4 6
+i:75     1       2 1 6          4 evicted, 1 entered
+i:76     7       7 1 6          2 evicted, 7 entered
+i:77     7       7 1 6
+i:78     7       7 1 6
+i:79     7       7 1 6
+i:80     6       7 1 6
+i:81     0       7 0 6          1 evicted, 0 entered
+i:82     0       7 0 6
+i:83     2       7 0 2          6 evicted, 2 entered
+i:84     1       7 0 1          2 evicted, 1 entered
+i:85     5       7 0 5          1 evicted, 5 entered
+i:86     5       7 0 5
+i:87     0       7 0 5
+i:88     6       7 0 6          5 evicted, 6 entered
+i:89     6       7 0 6
+i:90     5       7 5 6          0 evicted, 5 entered
+i:91     1       1 5 6          7 evicted, 1 entered
+i:92     1       1 5 6
+i:93     1       1 5 6
+i:94     1       1 5 6
+i:95     6       1 5 6
+i:96     1       1 5 6
+i:97     1       1 5 6
+i:98     1       1 5 6
+i:99     4       4 5 6          1 evicted, 4 entered
+Simulation #5 Statistics - Hit Ratio: 54% Page Swaps: 43
+
+Ending Random Pick Simulation
+******************************
+******************************
+Beginning Optimal Pick Simulation
+
+Simulation #1
+Index    Ref     Frames          Action
+i:0      1       1 -1 -1
+i:1      0       1 0 -1
+i:2      1       1 0 -1
+i:3      1       1 0 -1
+i:4      6       1 0 6
+i:5      1       1 0 6
+i:6      7       1 7 6          0 evicted, 7 entered
+i:7      6       1 7 6
+i:8      5       1 5 6          7 evicted, 5 entered
+i:9      4       1 4 6          5 evicted, 4 entered
+i:10     1       1 4 6
+i:11     1       1 4 6
+i:12     1       1 4 6
+i:13     1       1 4 6
+i:14     0       0 4 6          1 evicted, 0 entered
+i:15     0       0 4 6
+i:16     6       0 4 6
+i:17     2       2 4 6          0 evicted, 2 entered
+i:18     4       2 4 6
+i:19     4       2 4 6
+i:20     4       2 4 6
+i:21     3       3 4 6          2 evicted, 3 entered
+i:22     6       3 4 6
+i:23     4       3 4 6
+i:24     1       3 4 1          6 evicted, 1 entered
+i:25     4       3 4 1
+i:26     4       3 4 1
+i:27     4       3 4 1
+i:28     3       3 4 1
+i:29     1       3 4 1
+i:30     7       3 7 1          4 evicted, 7 entered
+i:31     3       3 7 1
+i:32     7       3 7 1
+i:33     7       3 7 1
+i:34     6       6 7 1          3 evicted, 6 entered
+i:35     6       6 7 1
+i:36     5       6 5 1          7 evicted, 5 entered
+i:37     6       6 5 1
+i:38     1       6 5 1
+i:39     2       2 5 1          6 evicted, 2 entered
+i:40     0       0 5 1          2 evicted, 0 entered
+i:41     4       4 5 1          0 evicted, 4 entered
+i:42     1       4 5 1
+i:43     5       4 5 1
+i:44     7       4 7 1          5 evicted, 7 entered
+i:45     3       3 7 1          4 evicted, 3 entered
+i:46     1       3 7 1
+i:47     1       3 7 1
+i:48     2       2 7 1          3 evicted, 2 entered
+i:49     2       2 7 1
+i:50     1       2 7 1
+i:51     1       2 7 1
+i:52     1       2 7 1
+i:53     7       2 7 1
+i:54     7       2 7 1
+i:55     6       2 6 1          7 evicted, 6 entered
+i:56     3       2 3 1          6 evicted, 3 entered
+i:57     2       2 3 1
+i:58     2       2 3 1
+i:59     3       2 3 1
+i:60     1       2 3 1
+i:61     1       2 3 1
+i:62     4       4 3 1          2 evicted, 4 entered
+i:63     4       4 3 1
+i:64     3       4 3 1
+i:65     1       4 3 1
+i:66     4       4 3 1
+i:67     4       4 3 1
+i:68     7       4 3 7          1 evicted, 7 entered
+i:69     7       4 3 7
+i:70     7       4 3 7
+i:71     7       4 3 7
+i:72     2       2 3 7          4 evicted, 2 entered
+i:73     7       2 3 7
+i:74     6       6 3 7          2 evicted, 6 entered
+i:75     7       6 3 7
+i:76     3       6 3 7
+i:77     3       6 3 7
+i:78     7       6 3 7
+i:79     4       6 4 7          3 evicted, 4 entered
+i:80     4       6 4 7
+i:81     4       6 4 7
+i:82     5       6 4 5          7 evicted, 5 entered
+i:83     4       6 4 5
+i:84     1       1 4 5          6 evicted, 1 entered
+i:85     5       1 4 5
+i:86     5       1 4 5
+i:87     4       1 4 5
+i:88     2       1 2 5          4 evicted, 2 entered
+i:89     2       1 2 5
+i:90     1       1 2 5
+i:91     6       1 6 5          2 evicted, 6 entered
+i:92     6       1 6 5
+i:93     6       1 6 5
+i:94     5       1 6 5
+i:95     0       1 0 5          6 evicted, 0 entered
+i:96     0       1 0 5
+i:97     0       1 0 5
+i:98     1       1 0 5
+i:99     4       4 0 5          1 evicted, 4 entered
+Simulation #1 Statistics - Hit Ratio: 68% Page Swaps: 29
+
+Simulation #2
+Index    Ref     Frames          Action
+i:0      7       7 -1 -1
+i:1      7       7 -1 -1
+i:2      1       7 1 -1
+i:3      4       7 1 4
+i:4      1       7 1 4
+i:5      4       7 1 4
+i:6      6       6 1 4          7 evicted, 6 entered
+i:7      5       6 5 4          1 evicted, 5 entered
+i:8      0       6 5 0          4 evicted, 0 entered
+i:9      0       6 5 0
+i:10     0       6 5 0
+i:11     6       6 5 0
+i:12     5       6 5 0
+i:13     4       6 4 0          5 evicted, 4 entered
+i:14     0       6 4 0
+i:15     1       6 1 0          4 evicted, 1 entered
+i:16     0       6 1 0
+i:17     0       6 1 0
+i:18     0       6 1 0
+i:19     1       6 1 0
+i:20     1       6 1 0
+i:21     1       6 1 0
+i:22     1       6 1 0
+i:23     7       6 1 7          0 evicted, 7 entered
+i:24     6       6 1 7
+i:25     1       6 1 7
+i:26     1       6 1 7
+i:27     1       6 1 7
+i:28     4       6 1 4          7 evicted, 4 entered
+i:29     0       6 1 0          4 evicted, 0 entered
+i:30     0       6 1 0
+i:31     5       6 1 5          0 evicted, 5 entered
+i:32     1       6 1 5
+i:33     3       3 1 5          6 evicted, 3 entered
+i:34     1       3 1 5
+i:35     3       3 1 5
+i:36     5       3 1 5
+i:37     6       3 6 5          1 evicted, 6 entered
+i:38     5       3 6 5
+i:39     0       3 6 0          5 evicted, 0 entered
+i:40     7       3 7 0          6 evicted, 7 entered
+i:41     7       3 7 0
+i:42     0       3 7 0
+i:43     0       3 7 0
+i:44     0       3 7 0
+i:45     0       3 7 0
+i:46     3       3 7 0
+i:47     0       3 7 0
+i:48     1       1 7 0          3 evicted, 1 entered
+i:49     1       1 7 0
+i:50     1       1 7 0
+i:51     2       1 7 2          0 evicted, 2 entered
+i:52     7       1 7 2
+i:53     6       1 6 2          7 evicted, 6 entered
+i:54     1       1 6 2
+i:55     0       1 6 0          2 evicted, 0 entered
+i:56     6       1 6 0
+i:57     5       1 5 0          6 evicted, 5 entered
+i:58     1       1 5 0
+i:59     1       1 5 0
+i:60     3       1 3 0          5 evicted, 3 entered
+i:61     2       1 2 0          3 evicted, 2 entered
+i:62     1       1 2 0
+i:63     0       1 2 0
+i:64     3       1 2 3          0 evicted, 3 entered
+i:65     3       1 2 3
+i:66     1       1 2 3
+i:67     3       1 2 3
+i:68     2       1 2 3
+i:69     0       1 0 3          2 evicted, 0 entered
+i:70     0       1 0 3
+i:71     0       1 0 3
+i:72     0       1 0 3
+i:73     7       1 7 3          0 evicted, 7 entered
+i:74     7       1 7 3
+i:75     7       1 7 3
+i:76     6       1 7 6          3 evicted, 6 entered
+i:77     6       1 7 6
+i:78     7       1 7 6
+i:79     7       1 7 6
+i:80     7       1 7 6
+i:81     6       1 7 6
+i:82     7       1 7 6
+i:83     7       1 7 6
+i:84     7       1 7 6
+i:85     1       1 7 6
+i:86     3       1 7 3          6 evicted, 3 entered
+i:87     1       1 7 3
+i:88     4       1 7 4          3 evicted, 4 entered
+i:89     1       1 7 4
+i:90     5       1 7 5          4 evicted, 5 entered
+i:91     1       1 7 5
+i:92     1       1 7 5
+i:93     7       1 7 5
+i:94     6       6 7 5          1 evicted, 6 entered
+i:95     5       6 7 5
+i:96     5       6 7 5
+i:97     5       6 7 5
+i:98     5       6 7 5
+i:99     5       6 7 5
+Simulation #2 Statistics - Hit Ratio: 69% Page Swaps: 28
+
+Simulation #3
+Index    Ref     Frames          Action
+i:0      3       3 -1 -1
+i:1      1       3 1 -1
+i:2      4       3 1 4
+i:3      4       3 1 4
+i:4      4       3 1 4
+i:5      1       3 1 4
+i:6      3       3 1 4
+i:7      3       3 1 4
+i:8      2       3 1 2          4 evicted, 2 entered
+i:9      1       3 1 2
+i:10     3       3 1 2
+i:11     2       3 1 2
+i:12     2       3 1 2
+i:13     2       3 1 2
+i:14     4       3 1 4          2 evicted, 4 entered
+i:15     3       3 1 4
+i:16     3       3 1 4
+i:17     1       3 1 4
+i:18     4       3 1 4
+i:19     6       6 1 4          3 evicted, 6 entered
+i:20     5       5 1 4          6 evicted, 5 entered
+i:21     5       5 1 4
+i:22     5       5 1 4
+i:23     5       5 1 4
+i:24     5       5 1 4
+i:25     5       5 1 4
+i:26     4       5 1 4
+i:27     4       5 1 4
+i:28     1       5 1 4
+i:29     5       5 1 4
+i:30     5       5 1 4
+i:31     5       5 1 4
+i:32     1       5 1 4
+i:33     0       5 1 0          4 evicted, 0 entered
+i:34     5       5 1 0
+i:35     1       5 1 0
+i:36     1       5 1 0
+i:37     5       5 1 0
+i:38     5       5 1 0
+i:39     5       5 1 0
+i:40     5       5 1 0
+i:41     5       5 1 0
+i:42     1       5 1 0
+i:43     1       5 1 0
+i:44     5       5 1 0
+i:45     1       5 1 0
+i:46     4       5 1 4          0 evicted, 4 entered
+i:47     3       5 1 3          4 evicted, 3 entered
+i:48     5       5 1 3
+i:49     5       5 1 3
+i:50     1       5 1 3
+i:51     0       5 1 0          3 evicted, 0 entered
+i:52     1       5 1 0
+i:53     0       5 1 0
+i:54     6       5 1 6          0 evicted, 6 entered
+i:55     6       5 1 6
+i:56     4       5 4 6          1 evicted, 4 entered
+i:57     6       5 4 6
+i:58     5       5 4 6
+i:59     5       5 4 6
+i:60     2       5 2 6          4 evicted, 2 entered
+i:61     2       5 2 6
+i:62     2       5 2 6
+i:63     1       5 2 1          6 evicted, 1 entered
+i:64     0       5 2 0          1 evicted, 0 entered
+i:65     0       5 2 0
+i:66     0       5 2 0
+i:67     0       5 2 0
+i:68     2       5 2 0
+i:69     2       5 2 0
+i:70     2       5 2 0
+i:71     7       5 7 0          2 evicted, 7 entered
+i:72     7       5 7 0
+i:73     5       5 7 0
+i:74     5       5 7 0
+i:75     1       5 1 0          7 evicted, 1 entered
+i:76     5       5 1 0
+i:77     1       5 1 0
+i:78     1       5 1 0
+i:79     1       5 1 0
+i:80     6       6 1 0          5 evicted, 6 entered
+i:81     0       6 1 0
+i:82     0       6 1 0
+i:83     1       6 1 0
+i:84     0       6 1 0
+i:85     0       6 1 0
+i:86     3       6 1 3          0 evicted, 3 entered
+i:87     7       6 7 3          1 evicted, 7 entered
+i:88     6       6 7 3
+i:89     5       5 7 3          6 evicted, 5 entered
+i:90     4       5 4 3          7 evicted, 4 entered
+i:91     3       5 4 3
+i:92     1       5 1 3          4 evicted, 1 entered
+i:93     1       5 1 3
+i:94     5       5 1 3
+i:95     7       7 1 3          5 evicted, 7 entered
+i:96     2       7 2 3          1 evicted, 2 entered
+i:97     2       7 2 3
+i:98     7       7 2 3
+i:99     2       7 2 3
+Simulation #3 Statistics - Hit Ratio: 74% Page Swaps: 23
+
+Simulation #4
+Index    Ref     Frames          Action
+i:0      0       0 -1 -1
+i:1      4       0 4 -1
+i:2      3       0 4 3
+i:3      1       0 4 1          3 evicted, 1 entered
+i:4      4       0 4 1
+i:5      1       0 4 1
+i:6      5       0 5 1          4 evicted, 5 entered
+i:7      1       0 5 1
+i:8      2       0 2 1          5 evicted, 2 entered
+i:9      1       0 2 1
+i:10     1       0 2 1
+i:11     1       0 2 1
+i:12     0       0 2 1
+i:13     0       0 2 1
+i:14     0       0 2 1
+i:15     0       0 2 1
+i:16     0       0 2 1
+i:17     0       0 2 1
+i:18     1       0 2 1
+i:19     0       0 2 1
+i:20     4       4 2 1          0 evicted, 4 entered
+i:21     1       4 2 1
+i:22     3       4 3 1          2 evicted, 3 entered
+i:23     1       4 3 1
+i:24     4       4 3 1
+i:25     4       4 3 1
+i:26     3       4 3 1
+i:27     2       2 3 1          4 evicted, 2 entered
+i:28     3       2 3 1
+i:29     2       2 3 1
+i:30     1       2 3 1
+i:31     1       2 3 1
+i:32     1       2 3 1
+i:33     2       2 3 1
+i:34     1       2 3 1
+i:35     1       2 3 1
+i:36     3       2 3 1
+i:37     1       2 3 1
+i:38     4       2 3 4          1 evicted, 4 entered
+i:39     5       2 3 5          4 evicted, 5 entered
+i:40     7       2 3 7          5 evicted, 7 entered
+i:41     7       2 3 7
+i:42     2       2 3 7
+i:43     0       0 3 7          2 evicted, 0 entered
+i:44     3       0 3 7
+i:45     7       0 3 7
+i:46     3       0 3 7
+i:47     1       0 1 7          3 evicted, 1 entered
+i:48     1       0 1 7
+i:49     0       0 1 7
+i:50     0       0 1 7
+i:51     1       0 1 7
+i:52     1       0 1 7
+i:53     5       0 1 5          7 evicted, 5 entered
+i:54     5       0 1 5
+i:55     1       0 1 5
+i:56     0       0 1 5
+i:57     6       6 1 5          0 evicted, 6 entered
+i:58     5       6 1 5
+i:59     1       6 1 5
+i:60     7       6 1 7          5 evicted, 7 entered
+i:61     6       6 1 7
+i:62     7       6 1 7
+i:63     6       6 1 7
+i:64     1       6 1 7
+i:65     7       6 1 7
+i:66     2       2 1 7          6 evicted, 2 entered
+i:67     1       2 1 7
+i:68     1       2 1 7
+i:69     1       2 1 7
+i:70     0       2 1 0          7 evicted, 0 entered
+i:71     0       2 1 0
+i:72     0       2 1 0
+i:73     0       2 1 0
+i:74     5       2 1 5          0 evicted, 5 entered
+i:75     3       3 1 5          2 evicted, 3 entered
+i:76     3       3 1 5
+i:77     3       3 1 5
+i:78     1       3 1 5
+i:79     1       3 1 5
+i:80     5       3 1 5
+i:81     5       3 1 5
+i:82     2       3 1 2          5 evicted, 2 entered
+i:83     7       7 1 2          3 evicted, 7 entered
+i:84     7       7 1 2
+i:85     2       7 1 2
+i:86     1       7 1 2
+i:87     0       0 1 2          7 evicted, 0 entered
+i:88     3       3 1 2          0 evicted, 3 entered
+i:89     3       3 1 2
+i:90     3       3 1 2
+i:91     3       3 1 2
+i:92     2       3 1 2
+i:93     2       3 1 2
+i:94     3       3 1 2
+i:95     1       3 1 2
+i:96     6       6 1 2          3 evicted, 6 entered
+i:97     0       0 1 2          6 evicted, 0 entered
+i:98     1       0 1 2
+i:99     1       0 1 2
+Simulation #4 Statistics - Hit Ratio: 73% Page Swaps: 24
+
+Simulation #5
+Index    Ref     Frames          Action
+i:0      1       1 -1 -1
+i:1      0       1 0 -1
+i:2      1       1 0 -1
+i:3      7       1 0 7
+i:4      1       1 0 7
+i:5      6       1 0 6          7 evicted, 6 entered
+i:6      6       1 0 6
+i:7      5       1 5 6          0 evicted, 5 entered
+i:8      4       1 5 4          6 evicted, 4 entered
+i:9      1       1 5 4
+i:10     5       1 5 4
+i:11     6       1 6 4          5 evicted, 6 entered
+i:12     4       1 6 4
+i:13     4       1 6 4
+i:14     1       1 6 4
+i:15     1       1 6 4
+i:16     6       1 6 4
+i:17     5       1 5 4          6 evicted, 5 entered
+i:18     5       1 5 4
+i:19     4       1 5 4
+i:20     3       1 3 4          5 evicted, 3 entered
+i:21     1       1 3 4
+i:22     0       1 0 4          3 evicted, 0 entered
+i:23     1       1 0 4
+i:24     1       1 0 4
+i:25     1       1 0 4
+i:26     7       1 0 7          4 evicted, 7 entered
+i:27     6       1 6 7          0 evicted, 6 entered
+i:28     1       1 6 7
+i:29     1       1 6 7
+i:30     1       1 6 7
+i:31     1       1 6 7
+i:32     7       1 6 7
+i:33     0       1 0 7          6 evicted, 0 entered
+i:34     0       1 0 7
+i:35     0       1 0 7
+i:36     0       1 0 7
+i:37     1       1 0 7
+i:38     1       1 0 7
+i:39     4       1 4 7          0 evicted, 4 entered
+i:40     7       1 4 7
+i:41     7       1 4 7
+i:42     1       1 4 7
+i:43     0       1 4 0          7 evicted, 0 entered
+i:44     1       1 4 0
+i:45     2       1 4 2          0 evicted, 2 entered
+i:46     1       1 4 2
+i:47     1       1 4 2
+i:48     1       1 4 2
+i:49     3       1 4 3          2 evicted, 3 entered
+i:50     5       5 4 3          1 evicted, 5 entered
+i:51     5       5 4 3
+i:52     4       5 4 3
+i:53     4       5 4 3
+i:54     7       7 4 3          5 evicted, 7 entered
+i:55     3       7 4 3
+i:56     1       7 4 1          3 evicted, 1 entered
+i:57     1       7 4 1
+i:58     0       0 4 1          7 evicted, 0 entered
+i:59     0       0 4 1
+i:60     0       0 4 1
+i:61     0       0 4 1
+i:62     1       0 4 1
+i:63     2       2 4 1          0 evicted, 2 entered
+i:64     4       2 4 1
+i:65     1       2 4 1
+i:66     5       2 4 5          1 evicted, 5 entered
+i:67     5       2 4 5
+i:68     5       2 4 5
+i:69     4       2 4 5
+i:70     2       2 4 5
+i:71     2       2 4 5
+i:72     6       2 6 5          4 evicted, 6 entered
+i:73     6       2 6 5
+i:74     6       2 6 5
+i:75     1       2 6 1          5 evicted, 1 entered
+i:76     7       2 6 7          1 evicted, 7 entered
+i:77     7       2 6 7
+i:78     7       2 6 7
+i:79     7       2 6 7
+i:80     6       2 6 7
+i:81     0       2 6 0          7 evicted, 0 entered
+i:82     0       2 6 0
+i:83     2       2 6 0
+i:84     1       1 6 0          2 evicted, 1 entered
+i:85     5       5 6 0          1 evicted, 5 entered
+i:86     5       5 6 0
+i:87     0       5 6 0
+i:88     6       5 6 0
+i:89     6       5 6 0
+i:90     5       5 6 0
+i:91     1       1 6 0          5 evicted, 1 entered
+i:92     1       1 6 0
+i:93     1       1 6 0
+i:94     1       1 6 0
+i:95     6       1 6 0
+i:96     1       1 6 0
+i:97     1       1 6 0
+i:98     1       1 6 0
+i:99     4       4 6 0          1 evicted, 4 entered
+Simulation #5 Statistics - Hit Ratio: 69% Page Swaps: 28
+
+Ending Optimal Pick Simulation
+******************************
+
+******************************
+Beginning of Statistics
+
+Algorithm        Hit Ratio       Page Swaps
+FIFO             50              47
+FIFO             57              40
+FIFO             63              34
+FIFO             62              35
+FIFO             55              42
+FIFO Averages    57.40           39.60
+
+LRU              52              45
+LRU              57              40
+LRU              64              33
+LRU              60              37
+LRU              56              41
+LRU Averages     57.80           39.20
+
+LFU              56              41
+LFU              62              35
+LFU              63              34
+LFU              60              37
+LFU              64              33
+LFU Averages     61.00           36.00
+
+MFU              47              50
+MFU              58              39
+MFU              59              38
+MFU              56              41
+MFU              52              45
+MFU Averages     54.40           42.60
+
+Random           50              47
+Random           59              38
+Random           65              32
+Random           56              41
+Random           54              43
+Random Averages  56.80           40.20
+
+Optimal          68              29
+Optimal          69              28
+Optimal          74              23
+Optimal          73              24
+Optimal          69              28
+Optimal Averages 70.60           26.40
+
+End of Statistics
+******************************
+jasper@DESKTOP-MR9QDTC:/mnt/d/VsProjects/CMPE142-Asgn6$

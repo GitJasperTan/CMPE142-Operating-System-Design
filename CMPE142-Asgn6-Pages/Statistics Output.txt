@@ -1,0 +1,48 @@
+******************************
+Beginning of Statistics
+
+Algorithm        Hit Ratio       Page Swaps
+FIFO             50              47
+FIFO             57              40
+FIFO             63              34
+FIFO             62              35
+FIFO             55              42
+FIFO Averages    57.40           39.60
+
+LRU              52              45
+LRU              57              40
+LRU              64              33
+LRU              60              37
+LRU              56              41
+LRU Averages     57.80           39.20
+
+LFU              56              41
+LFU              62              35
+LFU              63              34
+LFU              60              37
+LFU              64              33
+LFU Averages     61.00           36.00
+
+MFU              47              50
+MFU              58              39
+MFU              59              38
+MFU              56              41
+MFU              52              45
+MFU Averages     54.40           42.60
+
+Random           50              47
+Random           59              38
+Random           65              32
+Random           56              41
+Random           54              43
+Random Averages  56.80           40.20
+
+Optimal          68              29
+Optimal          69              28
+Optimal          74              23
+Optimal          73              24
+Optimal          69              28
+Optimal Averages 70.60           26.40
+
+End of Statistics
+******************************
